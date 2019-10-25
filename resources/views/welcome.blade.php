@@ -66,7 +66,7 @@
       <div class="menu__item">
         <nav class="menu__right-nav d-l-none">
           <ul>
-            <li><a href="10_get-app.html" class="site-btn site-btn--accent">Dashboard</a></li>
+            <li><a href="app" class="site-btn site-btn--accent">Dashboard</a></li>
             <li>
               <div class="menu__dropdown d-t-none">
                 <a class="link link--gray menu__dropdown-btn">En
@@ -466,8 +466,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p>© 2017 Sigma – Featured as App Presentation HTML Template | Made by
-          <a href="http://themes.aspirity.com " class="link link--gray">Aspirity</a></p>
+        <p>Copyright © 2019 Dustmo</p>
       </div>
     </div>
   </div>
