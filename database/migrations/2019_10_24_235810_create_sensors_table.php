@@ -16,7 +16,6 @@ class CreateSensorsTable extends Migration
         Schema::create('sensors', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('dustDensity');
-            $table->string('calcVoltage');
             $table->timestamps();
         });
     }
