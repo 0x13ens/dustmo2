@@ -24,7 +24,6 @@ Route::post('/', function (\Illuminate\Http\Request $request) {
     \Illuminate\Support\Facades\Storage::append("arduino-log.txt",
         "Time: " . now()->format("Y-m-d H:i:s") . ', ' .
         "voMeasured: " . $request->get("voMeasured", "n/a") . '°C, ' .
-        "calcVoltage: " . $request->get("calcVoltage", "n/a") . '°C, ' .
         "dustDensity: " . $request->get("dustDensity", "n/a") . '%'
     );
 });
