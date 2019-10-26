@@ -37,8 +37,6 @@ class SensorController extends Controller
     {
         $sensor = new Sensor;
         $sensor->dustDensity = $request->dustDensity;
-        $sensor->voMeasured = $request->voMeasured;
-        $sensor->calcVoltage = $request->calcVoltage;
         $sensor->save();
     }
 
