@@ -420,7 +420,7 @@
     <div class="col s12 m12 l12">
       <div id="striped-table" class="card card card-default scrollspy">
         <div class="card-content">
-          <h4 class="card-title">Striped Table</h4>
+          <h4 class="card-title">Sensor Data</h4>
           <p class="mb-2">Add <code class=" language-markup">class="striped"</code> to the table tag for a striped
             table</p>
           <div class="row">
