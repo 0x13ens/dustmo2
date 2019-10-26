@@ -472,8 +472,8 @@
                   <tr>
                     <td>{{ $sensor->id }}</td>
                     <td>{{ $sensor->dustDensity }}</td>
-                    <td>{{ $sensor->voMeasured }}</td>
                     <td>{{ $sensor->calcVoltage }}</td>
+                    <td>{{ $sensor->voMeasured }}</td>
                   </tr>
                 @endforeach
                 </tbody>
