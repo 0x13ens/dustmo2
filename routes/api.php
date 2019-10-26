@@ -18,4 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 // This post link hits the sensorController Store method and hopefully stores our sensor values in the database
-Route::post('/api','SensorController@store');
+Route::post('/','SensorController@store');
