@@ -439,12 +439,14 @@
                   </tr>
                 </thead>
                 <tbody>
+                  <tr>
                 @foreach($sensors as $sensor)
-                <td>{{$sensor->id}}</td>
-                <td>{{$sensor->dustDensity}}</td>
-                <td>{{$sensor->voMeasured}}</td>
-                <td>{{$sensor->calcVoltage}}</td>
+                    <td>{{$sensor->id}}</td>
+                    <td>{{$sensor->dustDensity}}</td>
+                    <td>{{$sensor->voMeasured}}</td>
+                    <td>{{$sensor->calcVoltage}}</td>
                 @endforeach
+                  </tr>
                 </tfoot>
               </table>
             </div>
