@@ -88,7 +88,7 @@ void loop() {
   Serial.println(dustDensity);
  
   //prepare request
-  postData = "temperature=" + String(voMeasured + "$dustDensity=" + dustDensity + "&humidity=" + humidity;
+  postData = "temperature=" + temperature + "dust Density:" + dustDensity + "&humidity=" + humidity;
   http.begin(host);
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
   int httpCode = http.POST(postData);
