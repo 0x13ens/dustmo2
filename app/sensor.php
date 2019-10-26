@@ -9,6 +9,8 @@ class sensor extends Model
     protected $table = 'sensors';
 
     protected $fillable = [
-        'dustDensity'
+        'dustDensity', 
+        'voMeasured', 
+        'calcVoltage'
     ];
 }
