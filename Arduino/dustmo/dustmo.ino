@@ -73,7 +73,7 @@ void loop() {
  
   delay(1000);
   
-  String temperature, humidity, dustDensity, postData;
+  String dustDensity, postData;
   voMeasured = analogRead(measurePin); // read the dust value
   calcVoltage = voMeasured * (3.3 / 1024);
   dustDensity = 0.17 * calcVoltage - 0.1;
@@ -88,7 +88,7 @@ void loop() {
   Serial.println(dustDensity);
  
   //prepare request
-  postData = "temperature=" + temperature + "dust Density:" + dustDensity + "&humidity=" + humidity;
+  postData = "dust Density:" + dustDensity;
   http.begin(host);
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
   int httpCode = http.POST(postData);
