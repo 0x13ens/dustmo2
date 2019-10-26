@@ -83,5 +83,5 @@ void loop() {
   Serial.println(httpCode);
   Serial.println(payload);
   http.end();
-  delay(5000);
+  delay(5000); //save to the database every 5 seconds
 }
