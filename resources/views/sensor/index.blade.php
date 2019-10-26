@@ -430,10 +430,12 @@
               <table id="scroll-dynamic" class="display">
                 <thead>
                   <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Age</th>
+                  @foreach($sensors as $sensor)
+                    <td>{{$sensor->id}}</td>
+                    <td>{{$sensor->dustDensity}}</td>
+                    <td>{{$sensor->voMeasured}}</td>
+                    <td>{{$sensor->calcVoltage}}</td>
+                @endforeach
                   </tr>
                 </thead>
                 <tbody>
