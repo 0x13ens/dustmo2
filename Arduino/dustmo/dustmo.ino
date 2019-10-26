@@ -72,11 +72,12 @@ void loop() {
   dustDensity = 0.17 * calcVoltage - 0.1;
  
   delay(1000);
+
+   voMeasured = analogRead(measurePin); // read the dust value
+   calcVoltage = voMeasured * (3.3 / 1024);
+   dustDensity = 0.17 * calcVoltage - 0.1;
   
-  String temperature, humidity, dustDensity, postData;
-  voMeasured = analogRead(measurePin); // read the dust value
-  calcVoltage = voMeasured * (3.3 / 1024);
-  dustDensity = 0.17 * calcVoltage - 0.1;
+  String voMeasured, calcVoltage, dustDensity, postData;
 
   Serial.print("Raw Signal Value (0-1023): ");
   Serial.print(voMeasured);
@@ -88,7 +89,7 @@ void loop() {
   Serial.println(dustDensity);
  
   //prepare request
-  postData = "temperature=" + temperature + "dust Density:" + dustDensity + "&humidity=" + humidity;
+  postData = "voMeasured=" + voMeasured + "CalcVoltage:" + calcVoltage + "&dustDensity=" + dustDensity;
   http.begin(host);
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
   int httpCode = http.POST(postData);
