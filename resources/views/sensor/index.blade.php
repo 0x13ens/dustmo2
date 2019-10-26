@@ -445,141 +445,6 @@
         mobile-screen widths are centered automatically.</p>
     </div>
   </div>
-  <!-- Borderless Table -->
-  <div class="row">
-    <div class="col s12">
-      <div id="borderless-table" class="card card-tabs">
-        <div class="card-content">
-          <div class="card-title">
-            <div class="row">
-              <div class="col s12 m6 l10">
-                <h4 class="card-title">Borderless Table</h4>
-                <p>Tables are borderless by default.</p>
-              </div>
-              <div class="col s12 m6 l2">
-                <ul class="tabs">
-                  <li class="tab col s6 p-0"><a class="active p-0" href="#view-borderless-table">View</a></li>
-                  <li class="tab col s6 p-0"><a class="p-0" href="#html-borderless-table">Html</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div id="view-borderless-table">
-            <div class="row">
-              <div class="col s12">
-                <table>
-                  <thead>
-                    <tr>
-                      <th data-field="id">Name</th>
-                      <th data-field="name">Item Name</th>
-                      <th data-field="price">Item Price</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Alvin</td>
-                      <td>Eclair</td>
-                      <td>$0.87</td>
-                    </tr>
-                    <tr>
-                      <td>Alan</td>
-                      <td>Jellybean</td>
-                      <td>$3.76</td>
-                    </tr>
-                    <tr>
-                      <td>Jonathan</td>
-                      <td>Lollipop</td>
-                      <td>$7.00</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-          <div id="html-borderless-table">
-            <pre><code class="language-markup">
-  &lt;table>
-    &lt;thead>
-    &lt;tr>
-      &lt;th>Name&lt;/th>
-      &lt;th>Item Name&lt;/th>
-      &lt;th>Item Price&lt;/th>
-    &lt;/tr>
-    &lt;/thead>
-    &lt;tbody>
-    &lt;tr>
-      &lt;td>Alvin&lt;/td>
-      &lt;td>Eclair&lt;/td>
-      &lt;td>$0.87&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-      &lt;td>Alan&lt;/td>
-      &lt;td>Jellybean&lt;/td>
-      &lt;td>$3.76&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-      &lt;td>Jonathan&lt;/td>
-      &lt;td>Lollipop&lt;/td>
-      &lt;td>$7.00&lt;/td>
-    &lt;/tr>
-    &lt;/tbody>
-  &lt;/table>
-  </code></pre>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bordered Table -->
-  <div class="row">
-    <div class="col s12 m12 l12">
-      <div id="bordered-table" class="card card card-default scrollspy">
-        <div class="card-content">
-          <h4 class="card-title">Bordered Table</h4>
-          <p class="mb-2">Add <code class=" language-markup">class="bordered"</code> to the table tag for a
-            bordered table</p>
-          <div class="row">
-            <div class="col s12">
-            </div>
-            <div class="col s12">
-              <table class="bordered">
-                <thead>
-                  <tr>
-                    <th data-field="id">Name</th>
-                    <th data-field="name">Item Name</th>
-                    <th data-field="price">Item Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Alvin</td>
-                    <td>Eclair</td>
-                    <td>$0.87</td>
-                  </tr>
-                  <tr>
-                    <td>Alan</td>
-                    <td>Jellybean</td>
-                    <td>$3.76</td>
-                  </tr>
-                  <tr>
-                    <td>Jonathan</td>
-                    <td>Lollipop</td>
-                    <td>$7.00</td>
-                  </tr>
-                  <tr>
-                    <td>Shannon</td>
-                    <td>KitKat</td>
-                    <td>$9.99</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Striped Table -->
   <div class="row">
@@ -596,17 +461,19 @@
               <table class="striped">
                 <thead>
                   <tr>
-                    <th data-field="id">Name</th>
-                    <th data-field="name">Item Name</th>
-                    <th data-field="price">Item Price</th>
+                    <th data-field="id">id</th>
+                    <th data-field="name">Dust Density</th>
+                    <th data-field="price">Voltage</th>
+                    <th data-field="price">Raw Signal Value</th>
                   </tr>
                 </thead>
                 <tbody>
                 @foreach($sensors as $sensor)
                   <tr>
                     <td>{{ $sensor->id }}</td>
-                    <td>Eclair</td>
-                    <td>$0.87</td>
+                    <td>{{ $sensor->dustDensity }}</td>
+                    <td>{{ $sensor->voMeasured }}</td>
+                    <td>{{ $sensor->calcVoltage }}</td>
                   </tr>
                 @endforeach
                 </tbody>
