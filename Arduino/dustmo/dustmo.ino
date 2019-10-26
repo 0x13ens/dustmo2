@@ -65,16 +65,16 @@ void loop() {
     dustDensity = 0.17 * calcVoltage - 0.1;
 
   Serial.print("Raw Signal Value (0-1023): ");
-  Serial.print(voMeasured);
+  Serial.println(voMeasured);
  
   Serial.print(" - Voltage: ");
-  Serial.print(calcVoltage);
+  Serial.println(calcVoltage);
  
   Serial.print(" - Dust Density: ");
   Serial.println(dustDensity);
  
   //prepare request
-  postData = "voMeasured=" + String(voMeasured) + "&calcVoltage:" + calcVoltage + "&dustDensity=" + dustDensity;
+  postData = "voMeasured=" + String(voMeasured) + "calcVoltage:" + String(calcVoltage) + "&dustDensity=" + dustDensity;
   http.begin(host);
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
   int httpCode = http.POST(postData);

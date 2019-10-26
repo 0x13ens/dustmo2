@@ -36,7 +36,9 @@ class SensorController extends Controller
     public function store(Request $request)
     {
         $sensor = new Sensor;
-        $sensor->dustDensity = $request->get("dustDensity");
+        $sensor->voMeasured =   $request->get('voMeasured');
+        $sensor->calcVoltage =  $request->get('calcVoltage');
+        $sensor->dustDensity =  $request->get("dustDensity");
         $sensor->save();
     }
 
