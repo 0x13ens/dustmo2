@@ -1,5 +1,7 @@
 <?php
 
+Route::resource('sensors', 'SensorController');
+
 Route::get('/app', function () {
     return view('app');
 });
