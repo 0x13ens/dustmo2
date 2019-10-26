@@ -74,7 +74,7 @@ void loop() {
   Serial.println(dustDensity);
  
   //prepare request
-  postData = "voMeasured=" + voMeasured + "calcVoltage:" + calcVoltage + "&dustDensity=" + dustDensity;
+  postData = "&voMeasured=" + String(voMeasured) + "&calcVoltage=" + calcVoltage + "&dustDensity=" + dustDensity;
   http.begin(host);
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
   int httpCode = http.POST(postData);
