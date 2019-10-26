@@ -24,9 +24,7 @@ class SensorController extends Controller
      */
     public function create()
     {
-        $sensor = new Sensor;
-        $sensor->dustDensity = $request->dustDensity;
-        $sensor->save();
+        //
     }
 
     /**
@@ -35,7 +33,7 @@ class SensorController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request, $dustDensity)
+    public function store(Request $request)
     {
         $sensor = new Sensor;
         $sensor->dustDensity = $request->dustDensity;
