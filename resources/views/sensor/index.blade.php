@@ -414,37 +414,6 @@
 
     <!-- BEGIN: Page Main-->
     <div id="main">
-      <div class="row">
-        <div class="pt-3 pb-1" id="breadcrumbs-wrapper">
-          <!-- Search for small screen-->
-          <div class="container">
-            <div class="row">
-              <div class="col s12 m6 l6">
-                <h5 class="breadcrumbs-title mt-0 mb-0">Table Basic</h5>
-              </div>
-              <div class="col s12 m6 l6 right-align-md">
-                <ol class="breadcrumbs mb-0">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a>
-                  </li>
-                  <li class="breadcrumb-item"><a href="#">CSS</a>
-                  </li>
-                  <li class="breadcrumb-item active">Table Basic
-                  </li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col s12">
-          <div class="container">
-            <div class="section">
-  <div class="card">
-    <div class="card-content">
-      <p class="caption mb-0">Tables are a nice way to organize a lot of data. We provide a few utility classes to help
-        you style your table as easily as possible. In addition, to improve mobile experience, all tables on
-        mobile-screen widths are centered automatically.</p>
-    </div>
-  </div>
 
   <!-- Striped Table -->
   <div class="row">
