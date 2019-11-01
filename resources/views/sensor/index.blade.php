@@ -449,8 +449,8 @@
                     <td>{{ $sensor->voMeasured }}</td>
                     <td>{{ $sensor->temperature }}</td>
                     <td>{{ $sensor->pressure }}</td>
-                    <td>{{ $sensor->Altitude }}</td>
-                    <td>{{ $sensor->Humidity }}</td>
+                    <td>{{ $sensor->altitude }}</td>
+                    <td>{{ $sensor->humidity }}</td>
                   </tr>
                 @endforeach
                 </tbody>
