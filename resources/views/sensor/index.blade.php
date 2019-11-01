@@ -435,6 +435,9 @@
                     <th data-field="voltage">Voltage</th>
                     <th data-field="rsv">Raw Signal Value</th>
                     <th data-field="temperature">Temperature</th>
+                    <th data-field="Pressure">Pressure</th>
+                    <th data-field="Altitude">Altitude</th>
+                    <th data-field="Humidity">Humidity</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -445,6 +448,9 @@
                     <td>{{ $sensor->calcVoltage }}</td>
                     <td>{{ $sensor->voMeasured }}</td>
                     <td>{{ $sensor->temperature }}</td>
+                    <td>{{ $sensor->Pressure }}</td>
+                    <td>{{ $sensor->Altitude }}</td>
+                    <td>{{ $sensor->Humidity }}</td>
                   </tr>
                 @endforeach
                 </tbody>
