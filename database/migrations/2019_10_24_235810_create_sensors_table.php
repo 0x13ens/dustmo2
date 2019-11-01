@@ -15,9 +15,13 @@ class CreateSensorsTable extends Migration
     {
         Schema::create('sensors', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('dustDensity');
-            $table->string('voMeasured');
-            $table->string('calcVoltage');
+            $table->string('dustDensity')->nullable();
+            $table->string('voMeasured')->nullable();
+            $table->string('calcVoltage')->nullable();
+            $table->string('temperature')->nullable();
+            $table->string('pressure')->nullable();
+            $table->string('altitude')->nullable();
+            $table->string('humidity')->nullable();
             $table->timestamps();
         });
     }
