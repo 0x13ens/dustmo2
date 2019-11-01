@@ -69,7 +69,8 @@ void loop() {
     
     // Specify content-type header
     http.addHeader("Content-Type", "application/x-www-form-urlencoded");
-    String httpRequestData = "&Temperature =" + bme.readTemperature() + "&Pressure =" + bme.readPressure() / 100.0F) + "&dustDensity=" + dustDensity;
+    String httpRequestData = 
+    "&temperature=" + String(bme.readTemperature());
     Serial.print("httpRequestData: ");
     Serial.println(httpRequestData);
 

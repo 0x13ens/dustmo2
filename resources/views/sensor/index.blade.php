@@ -443,6 +443,7 @@
                     <td>{{ $sensor->dustDensity }}</td>
                     <td>{{ $sensor->calcVoltage }}</td>
                     <td>{{ $sensor->voMeasured }}</td>
+                    <td>{{ $sensor->temperature }}</td>
                   </tr>
                 @endforeach
                 </tbody>
