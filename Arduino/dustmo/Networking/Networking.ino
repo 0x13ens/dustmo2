@@ -72,7 +72,8 @@ void loop() {
     String httpRequestData = 
     "&temperature=" + String(bme.readTemperature()) + 
     "&pressure=" + (bme.readPressure() / 100.0F) + 
-    "&altitude=" + (bme.readAltitude(SEALEVELPRESSURE_HPA));
+    "&altitude=" + (bme.readAltitude(SEALEVELPRESSURE_HPA)) +
+    "&humidity=" + (bme.readHumidity());
     Serial.print("httpRequestData: ");
     Serial.println(httpRequestData);
 
