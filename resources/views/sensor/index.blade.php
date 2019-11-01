@@ -431,9 +431,10 @@
                 <thead>
                   <tr>
                     <th data-field="id">id</th>
-                    <th data-field="name">Dust Density</th>
-                    <th data-field="price">Voltage</th>
-                    <th data-field="price">Raw Signal Value</th>
+                    <th data-field="DD">Dust Density</th>
+                    <th data-field="voltage">Voltage</th>
+                    <th data-field="rsv">Raw Signal Value</th>
+                    <th data-field="temperature">Temperature</th>
                   </tr>
                 </thead>
                 <tbody>
