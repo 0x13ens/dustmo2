@@ -448,7 +448,7 @@
                     <td>{{ $sensor->calcVoltage }}</td>
                     <td>{{ $sensor->voMeasured }}</td>
                     <td>{{ $sensor->temperature }}</td>
-                    <td>{{ $sensor->Pressure }}</td>
+                    <td>{{ $sensor->pressure }}</td>
                     <td>{{ $sensor->Altitude }}</td>
                     <td>{{ $sensor->Humidity }}</td>
                   </tr>
