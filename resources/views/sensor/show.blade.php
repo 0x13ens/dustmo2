@@ -16,16 +16,13 @@
                     <p><b>Bedroom Sensor</b></p>
                     <p>Pressure, Temperature, Humidity</p>
                  </div>
-                 <div class="card-action border-non center">
-                    <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan box-shadow">$ 999/-</a>
-                 </div>
               </div>
            </div>
            <div class="col s12 m8 l8">
                 <div id="revenue-chart" class="card animate fadeUp">
                    <div class="card-content">
                       <h4 class="header mt-0">
-                         REVENUE FOR 2017
+                         Sensor Info
                          <span class="purple-text small text-darken-1 ml-1">
                             <i class="material-icons">keyboard_arrow_up</i> 15.58 %</span>
                          <a class="waves-effect waves-light btn gradient-45deg-purple-deep-orange gradient-shadow right">Details</a>
