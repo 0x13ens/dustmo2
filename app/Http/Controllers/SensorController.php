@@ -37,7 +37,6 @@ class SensorController extends Controller
     public function store(Request $request)
     {
         $sensor = new Sensor;
-        $sensor->code     =  $request->get('code', "n/a"); // This grabs the sensors Mac Address in which we can filter users sensor data by
         $sensor->voMeasured     =  $request->get('voMeasured', "n/a");
         $sensor->calcVoltage    =  $request->get('calcVoltage', "n/a");
         $sensor->dustDensity    =  $request->get('dustDensity', "n/a");
