@@ -21,7 +21,7 @@
                </div>
                <div class="col s5 m5 right-align">
                   <p class="no-margin"><b>Pressure</b></p>
-                  <h5 class="mb-0 white-text"><b>690 <small>hPa</small></b></h5>
+                  <h5 class="mb-0 white-text"><b>690 hPa</b></h5>
                </div>
             </div>
          </div>

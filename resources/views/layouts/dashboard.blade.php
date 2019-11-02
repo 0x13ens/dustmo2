@@ -29,7 +29,7 @@
         <nav class="navbar-main navbar-color nav-collapsible sideNav-lock navbar-light">
           <div class="nav-wrapper">
             <div class="header-search-wrapper hide-on-med-and-down"><i class="material-icons">search</i>
-              <input class="header-search-input z-depth-2" type="text" name="Search" placeholder="Explore Materialize">
+              <input class="header-search-input z-depth-2" type="text" name="Search" placeholder="Explore Dustmo">
             </div>
             <ul class="navbar-list right">
               <li><a class="waves-effect waves-block waves-light add" href="add/sensor"><i class="material-icons">add</i></a></li>
