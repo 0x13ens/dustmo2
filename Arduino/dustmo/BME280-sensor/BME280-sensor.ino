@@ -14,7 +14,14 @@ Adafruit_BME280 bme; // I2C
 
 unsigned long delayTime;
 
+int redPin = 33;
+int greenPin = 32;
+int bluePin = 35;
+
 void setup() {
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);
   Wire.begin(SDA,SCL);
   Wire.begin(4,5);
   Serial.begin(9600);
@@ -38,6 +45,19 @@ void setup() {
 
 
 void loop() { 
+  digitalWrite(redPin,HIGH);
+  delay(1000);
+  digitalWrite(redPin,LOW);
+  digitalWrite(bluePin,HIGH);
+  digitalWrite(greenPin,LOW);
+  delay(1000);
+  digitalWrite(redPin,LOW);
+  digitalWrite(bluePin,LOW);
+  digitalWrite(greenPin,HIGH);
+  delay(1000);
+  digitalWrite(bluePin, LOW);
+  digitalWrite(greenPin, LOW);
+  digitalWrite(redPin, HIGH);
   printValues();
   delay(delayTime);
 }

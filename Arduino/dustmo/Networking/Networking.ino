@@ -26,7 +26,6 @@ void setup() {
   Wire.begin(4,5);
   Serial.begin(115200);
   Serial.println(F("BME280 test"));
-
   bool status;
 
    // default settings

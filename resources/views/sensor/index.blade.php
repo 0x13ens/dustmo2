@@ -430,6 +430,7 @@
               <table class="striped">
                 <thead>
                   <tr>
+                    <th data-field="ca">Created At</th>
                     <th data-field="id">id</th>
                     <th data-field="DD">Dust Density</th>
                     <th data-field="voltage">Voltage</th>
@@ -443,6 +444,7 @@
                 <tbody>
                 @foreach($sensors as $sensor)
                   <tr>
+                    <td>{{ $sensor->created_at }}</td>
                     <td>{{ $sensor->id }}</td>
                     <td>{{ $sensor->dustDensity }}</td>
                     <td>{{ $sensor->calcVoltage }}</td>
