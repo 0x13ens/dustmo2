@@ -21,38 +21,6 @@
                  </div>
               </div>
            </div>
-           <div class="col s12 m4">
-              <div class="card animate fadeUp">
-                 <div class="card-content">
-                    <span class="card-title center-align">Music</span>
-                    <img src="../../../app-assets/images/cards/headphones-2.png" alt="" class="responsive-img">
-                 </div>
-                 <div class="card-action pt-0">
-                    <p class="">Default Quality</p>
-                    <div class="chip">192kb <i class="close material-icons">close</i></div>
-                    <div class="chip">320kb <i class="close material-icons">close</i></div>
-                 </div>
-                 <div class="card-action pt-0">
-                    <p class="">Save Video Quality</p>
-                    <div class="switch">
-                       <label> Off <input type="checkbox"> <span class="lever"></span> On </label>
-                    </div>
-                 </div>
-              </div>
-           </div>
-           <div class="col s12 m4">
-              <div class="card animate fadeRight">
-                 <div class="card-content center">
-                    <h6 class="card-title font-weight-400 mb-0">iPhone</h6>
-                    <img src="../../../app-assets/images/cards/iphonec.png" alt="" class="responsive-img">
-                    <p><b>The Apple iPhone X</b></p>
-                    <p>One day only exclusive sale on our marketplace</p>
-                 </div>
-                 <div class="card-action border-non center">
-                    <a class="waves-effect waves-light btn gradient-45deg-red-pink box-shadow">$ 299/-</a>
-                 </div>
-              </div>
-           </div>
         </div>
         <!-- ecommerce product end-->
         <!-- ecommerce offers start-->
