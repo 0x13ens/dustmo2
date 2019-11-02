@@ -69,7 +69,7 @@
                     <div class="card-content center">
                        <img src="../../../app-assets/images/icon/laptop.png" class="width-40 border-round z-depth-5" alt="">
                        <h5 class="white-text lighten-4">40% Off</h5>
-                       <p class="white-text lighten-4">Humidity</p>
+                       <p class="white-text lighten-4">Altitude</p>
                     </div>
                  </div>
               </div>
@@ -78,7 +78,7 @@
                     <div class="card-content center">
                        <img src="../../../app-assets/images/icon/bowling.png" class="width-40 border-round z-depth-5" alt="">
                        <h5 class="white-text lighten-4">60% Off</h5>
-                       <p class="white-text lighten-4">On any game</p>
+                       <p class="white-text lighten-4">Humidity</p>
                     </div>
                  </div>
               </div>
