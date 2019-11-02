@@ -964,7 +964,7 @@
                 grouping.</p>
             </div>
             <div class="col s12">
-              <table id="" class="display">
+              <table id="scroll-dynamic" class="display">
                 <thead>  
                 <tr>
                   <th data-field="ca">Created At</th>
