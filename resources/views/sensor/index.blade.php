@@ -445,7 +445,7 @@
                     <td>{{ $sensor->temperature }}</td>
                     <td>{{ $sensor->pressure }}</td>
                     <td>{{ $sensor->altitude }}</td>
-                    @if ($sensor->humidity > 50 )
+                    @if ($sensor->humidity > 80 )
                     <td><b>{{ $sensor->humidity }}</b></td>
                     @else 
                     <td>{{ $sensor->humidity }}</td>
