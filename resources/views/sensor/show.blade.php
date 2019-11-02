@@ -116,7 +116,7 @@
 
                         <td>{{ $sensor->id }}</td>
                         @if ($sensor->temperature > 20)
-                        <td><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> <b> °C</b></td>
+                        <td><span class="blue-text text-darken-2">{{ $sensor->temperature }} <b> °C</b></span></td>
                         @else
                         <td><b>{{ $sensor->temperature }} °C</b></td>
                         @endif
