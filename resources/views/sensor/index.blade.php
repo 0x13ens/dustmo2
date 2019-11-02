@@ -463,6 +463,222 @@
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col s12">
+      <div class="card">
+        <div class="card-content">
+          <h4 class="card-title">Multi Select
+          </h4>
+          <div class="row">
+            <div class="col s12">
+              <div id="multi-select_wrapper" class="dataTables_wrapper"><div class="dataTables_length" id="multi-select_length"><label>Show <select name="multi-select_length" aria-controls="multi-select" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="multi-select_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="multi-select"></label></div><table id="multi-select" class="display dataTable dtr-inline collapsed" role="grid" style="width: 2179px;">
+                <thead>
+                  <tr role="row"><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 278px;">
+                      <label>
+                        <input type="checkbox" class="select-all">
+                        <span></span>
+                      </label>
+                    </th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 471px;">Name</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 362px;">Office</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 278px;">Age</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 314px; display: none;">Start date</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 308px; display: none;">Salary</th></tr>
+                </thead>
+                <tbody>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                <tr role="row" class="odd">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Tiger Nixon</td>
+                    
+                    <td>Edinburgh</td>
+                    <td>61</td>
+                    <td style="display: none;">2011/04/25</td>
+                    <td style="display: none;">$320,800</td>
+                  </tr><tr role="row" class="even">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Garrett Winters</td>
+                    
+                    <td>Tokyo</td>
+                    <td>63</td>
+                    <td style="display: none;">2011/07/25</td>
+                    <td style="display: none;">$170,750</td>
+                  </tr><tr role="row" class="odd">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Ashton Cox</td>
+                    
+                    <td>San Francisco</td>
+                    <td>66</td>
+                    <td style="display: none;">2009/01/12</td>
+                    <td style="display: none;">$86,000</td>
+                  </tr><tr role="row" class="even">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Cedric Kelly</td>
+                    
+                    <td>Edinburgh</td>
+                    <td>22</td>
+                    <td style="display: none;">2012/03/29</td>
+                    <td style="display: none;">$433,060</td>
+                  </tr><tr role="row" class="odd">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Airi Satou</td>
+                    
+                    <td>Tokyo</td>
+                    <td>33</td>
+                    <td style="display: none;">2008/11/28</td>
+                    <td style="display: none;">$162,700</td>
+                  </tr><tr role="row" class="even">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Brielle Williamson</td>
+                    
+                    <td>New York</td>
+                    <td>61</td>
+                    <td style="display: none;">2012/12/02</td>
+                    <td style="display: none;">$372,000</td>
+                  </tr><tr role="row" class="odd">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Herrod Chandler</td>
+                    
+                    <td>San Francisco</td>
+                    <td>59</td>
+                    <td style="display: none;">2012/08/06</td>
+                    <td style="display: none;">$137,500</td>
+                  </tr><tr role="row" class="even">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Rhona Davidson</td>
+                    
+                    <td>Tokyo</td>
+                    <td>55</td>
+                    <td style="display: none;">2010/10/14</td>
+                    <td style="display: none;">$327,900</td>
+                  </tr><tr role="row" class="odd">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Colleen Hurst</td>
+                    
+                    <td>San Francisco</td>
+                    <td>39</td>
+                    <td style="display: none;">2009/09/15</td>
+                    <td style="display: none;">$205,500</td>
+                  </tr><tr role="row" class="even">
+                    <th tabindex="0">
+                      <label>
+                        <input type="checkbox">
+                        <span></span>
+                      </label>
+                    </th>
+                    <td>Sonya Frost</td>
+                    
+                    <td>Edinburgh</td>
+                    <td>23</td>
+                    <td style="display: none;">2008/12/13</td>
+                    <td style="display: none;">$103,600</td>
+                  </tr></tbody>
+                <tfoot>
+                  <tr><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1">Name</th><th rowspan="1" colspan="1">Office</th><th rowspan="1" colspan="1">Age</th><th rowspan="1" colspan="1" style="display: none;">Start date</th><th rowspan="1" colspan="1" style="display: none;">Salary</th></tr>
+                </tfoot>
+              </table><div class="dataTables_paginate paging_simple_numbers" id="multi-select_paginate"><a class="paginate_button previous disabled" aria-controls="multi-select" data-dt-idx="0" tabindex="0" id="multi-select_previous">Previous</a><span><a class="paginate_button current" aria-controls="multi-select" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="multi-select" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="multi-select" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="multi-select" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="multi-select" data-dt-idx="5" tabindex="0">5</a><a class="paginate_button " aria-controls="multi-select" data-dt-idx="6" tabindex="0">6</a></span><a class="paginate_button next" aria-controls="multi-select" data-dt-idx="7" tabindex="0" id="multi-select_next">Next</a></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div><!-- START RIGHT SIDEBAR NAV -->
 <aside id="right-sidebar-nav">
    <div id="slide-out-right" class="slide-out-right-sidenav sidenav rightside-navigation">
