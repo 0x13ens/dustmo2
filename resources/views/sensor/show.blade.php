@@ -115,13 +115,13 @@
                       <tr>
 
                         <td>{{ $sensor->id }}</td>
-                        <td>{{ $sensor->temperature }}</td>
-                        <td>{{ $sensor->pressure }}</td>
+                        <td>{{ $sensor->temperature }} °C</td>
+                        <td>{{ $sensor->pressure }} hPa</td>
                         <td>{{ $sensor->altitude }}</td>
                         @if ($sensor->humidity > 50 ) <!-- If the humidity is over 50% we make it bold -->
-                        <td><b>{{ $sensor->humidity }}</b></td>
+                        <td><b>{{ $sensor->humidity }} %</b></td>
                         @else
-                        <td>{{ $sensor->humidity }}</td>
+                        <td>{{ $sensor->humidity }} %</td>
                         @endif
                       </tr>
                     @endforeach
