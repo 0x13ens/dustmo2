@@ -13,7 +13,7 @@
                  <div class="card-content  center">
                     <h6 class="card-title font-weight-400 mb-0">Apple Watch</h6>
                     <img src="../../../app-assets/images/cards/watch.png" alt="" class="responsive-img">
-                    <p><b>The Apple Watch</b></p>
+                    <p><b>Bedroom Sensor</b></p>
                     <p>One day only exclusive sale on our marketplace</p>
                  </div>
                  <div class="card-action border-non center">
