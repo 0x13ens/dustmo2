@@ -14,6 +14,7 @@ class CreateSensorsTable extends Migration
     public function up()
     {
         Schema::create('sensors', function (Blueprint $table) {
+            $table->string('code')->nullable();
             $table->bigIncrements('id');
             $table->string('dustDensity')->nullable();
             $table->string('voMeasured')->nullable();

@@ -11,4 +11,12 @@ class sensor extends Model
     protected $fillable = [
         'dustDensity', 'calcVoltage', 'voMeasured', 'temperature', 'pressure', 'altitude', 'humidity'
     ];
+
+    // A sensor belongs to a user
+
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
+
 }
