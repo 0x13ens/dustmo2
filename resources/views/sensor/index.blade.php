@@ -12,7 +12,7 @@
             <!--card stats start-->
 <div id="card-stats">
    <div class="row">
-      <div class="col s12 m6 l6 xl3">
+      <div class="col s12 m4 l4">
          <div class="card gradient-45deg-light-blue-cyan gradient-shadow min-height-100 white-text animate fadeLeft">
             <div class="padding-3">
                <div class="col s7 m7">
@@ -26,7 +26,7 @@
             </div>
          </div>
       </div>
-      <div class="col s12 m6 l6 xl3">
+      <div class="col s12 m4 l4">
          <div class="card gradient-45deg-red-pink gradient-shadow min-height-100 white-text animate fadeLeft">
             <div class="padding-3">
                <div class="col s7 m7">
@@ -40,7 +40,7 @@
             </div>
          </div>
       </div>
-      <div class="col s12 m6 l6 xl3">
+      <div class="col s12 m4 l4">
          <div class="card gradient-45deg-amber-amber gradient-shadow min-height-100 white-text animate fadeRight">
             <div class="padding-3">
                <div class="col s7 m7">
