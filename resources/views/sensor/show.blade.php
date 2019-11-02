@@ -16,6 +16,9 @@
                     <p><b>Bedroom Sensor</b></p>
                     <p>Pressure, Temperature, Humidity</p>
                  </div>
+                 <div class="card-action border-non center">
+                    <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan box-shadow">$ 999/-</a>
+                 </div>
               </div>
            </div>
            <div class="col s12 m8 l8">
@@ -48,7 +51,7 @@
                     <div class="card-content center">
                        <img src="../../../app-assets/images/icon/apple-watch.png" class="width-40 border-round z-depth-5" alt="">
                        <h5 class="white-text lighten-4">50% Off</h5>
-                       <p class="white-text lighten-4">On apple watch</p>
+                       <p class="white-text lighten-4">Pressure</p>
                     </div>
                  </div>
               </div>
@@ -57,7 +60,7 @@
                     <div class="card-content center">
                        <img src="../../../app-assets/images/icon/printer.png" class="width-40 border-round z-depth-5" alt="">
                        <h5 class="white-text lighten-4">20% Off</h5>
-                       <p class="white-text lighten-4">On Canon Printer</p>
+                       <p class="white-text lighten-4">Temperature</p>
                     </div>
                  </div>
               </div>
@@ -66,7 +69,7 @@
                     <div class="card-content center">
                        <img src="../../../app-assets/images/icon/laptop.png" class="width-40 border-round z-depth-5" alt="">
                        <h5 class="white-text lighten-4">40% Off</h5>
-                       <p class="white-text lighten-4">On apple macbook</p>
+                       <p class="white-text lighten-4">Humidity</p>
                     </div>
                  </div>
               </div>
