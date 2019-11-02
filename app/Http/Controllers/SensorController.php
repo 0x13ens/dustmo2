@@ -54,9 +54,10 @@ class SensorController extends Controller
      * @param  \App\sensor  $sensor
      * @return \Illuminate\Http\Response
      */
-    public function show(sensor $sensor)
+    public function show($id)
     {
-        //
+        $sensors = Sensor::orderBy('id', 'DESC')->paginate(50);
+        return view('sensor.show', compact('sensors'));
     }
 
     /**
