@@ -970,9 +970,6 @@
                 <tr>
   <th data-field="ca">Created At</th>
   <th data-field="id">id</th>
-  <th data-field="DD">Dust Density</th>
-  <th data-field="voltage">Voltage</th>
-  <th data-field="rsv">Raw Signal Value</th>
   <th data-field="temperature">Temperature</th>
   <th data-field="Pressure">Pressure</th>
   <th data-field="Altitude">Altitude</th>
@@ -984,9 +981,6 @@
 <tr>
   <td>{{ $sensor->created_at }}</td>
   <td>{{ $sensor->id }}</td>
-  <td>{{ $sensor->dustDensity }}</td>
-  <td>{{ $sensor->calcVoltage }}</td>
-  <td>{{ $sensor->voMeasured }}</td>
   <td>{{ $sensor->temperature }}</td>
   <td>{{ $sensor->pressure }}</td>
   <td>{{ $sensor->altitude }}</td>
