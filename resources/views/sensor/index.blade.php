@@ -440,16 +440,21 @@
                 <tbody>
                 @foreach($sensors as $sensor)
                   <tr>
+                     
                     <td>{{ $sensor->id }}</td>
                     <td>{{ $sensor->temperature }}</td>
                     <td>{{ $sensor->pressure }}</td>
                     <td>{{ $sensor->altitude }}</td>
+                    @if ($sensor->humidity > 50 )
+                    <td><b>{{ $sensor->humidity }}</b></td>
+                    @else 
                     <td>{{ $sensor->humidity }}</td>
+                    @endif
                   </tr>
                 @endforeach
                 </tbody>
               </table>
-              {{$sensors->links("pagination::bootstrap-4")}}
+              {{ $sensors->links() }}
             </div>
           </div>
         </div>
