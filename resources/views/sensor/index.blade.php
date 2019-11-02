@@ -34,9 +34,8 @@
                   <p>Feels Like</p>
                </div>
                <div class="col s5 m5 right-align">
-                  <h5 class="mb-0 white-text">1885</h5>
-                  <p class="no-margin">New</p>
-                  <p>1,12,900</p>
+                  <p class="no-margin"><b>Feels Like</b></p>
+                  <h5 class="mb-0 white-text">690</h5>
                </div>
             </div>
          </div>
