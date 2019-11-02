@@ -14,7 +14,7 @@
                     <h6 class="card-title font-weight-400 mb-0">Air Nano</h6>
                     <img src="../../../app-assets/images/cards/watch.png" alt="" class="responsive-img">
                     <p><b>Bedroom Sensor</b></p>
-                    <p>One day only exclusive sale on our marketplace</p>
+                    <p>Pressure, Temperature, Humidity</p>
                  </div>
                  <div class="card-action border-non center">
                     <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan box-shadow">$ 999/-</a>
