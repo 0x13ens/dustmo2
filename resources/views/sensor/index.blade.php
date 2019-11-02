@@ -21,7 +21,7 @@
                </div>
                <div class="col s5 m5 right-align">
                   <p class="no-margin"><b>Pressure</b></p>
-                  <h5 class="mb-0 white-text">690</h5>
+                  <h5 class="mb-0 white-text">690 hPa</h5>
                </div>
             </div>
          </div>
@@ -35,7 +35,7 @@
                </div>
                <div class="col s5 m5 right-align">
                   <p class="no-margin"><b>Feels Like</b></p>
-                  <h5 class="mb-0 white-text">690</h5>
+                  <h5 class="mb-0 white-text">690 *C</h5>
                </div>
             </div>
          </div>
@@ -48,9 +48,9 @@
                   <p>Humidity</p>
                </div>
                <div class="col s5 m5 right-align">
-                  <h5 class="mb-0 white-text">80%</h5>
-                  <p class="no-margin">Growth</p>
-                  <p>3,42,230</p>
+                  <p class="no-margin"><b>Humidity %</b></p>
+                  <h5 class="mb-0 white-text">690</h5>
+               </div>
                </div>
             </div>
          </div>
