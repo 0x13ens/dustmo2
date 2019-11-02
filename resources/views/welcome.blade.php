@@ -66,7 +66,7 @@
       <div class="menu__item">
         <nav class="menu__right-nav d-l-none">
           <ul>
-            <li><a href="app" class="site-btn site-btn--accent">Dashboard</a></li>
+            <li><a href="sensors" class="site-btn site-btn--accent">Dashboard</a></li>
             <li>
               <div class="menu__dropdown d-t-none">
                 <a class="link link--gray menu__dropdown-btn">En
