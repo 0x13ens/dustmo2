@@ -11,7 +11,7 @@
            <div class="col s12 m4">
               <div class="card animate fadeLeft">
                  <div class="card-content  center">
-                    <h6 class="card-title font-weight-400 mb-0">Apple Watch</h6>
+                    <h6 class="card-title font-weight-400 mb-0">Air Nano</h6>
                     <img src="../../../app-assets/images/cards/watch.png" alt="" class="responsive-img">
                     <p><b>Bedroom Sensor</b></p>
                     <p>One day only exclusive sale on our marketplace</p>
