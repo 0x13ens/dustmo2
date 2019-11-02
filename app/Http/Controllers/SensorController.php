@@ -25,7 +25,7 @@ class SensorController extends Controller
      */
     public function create()
     {
-        //
+        return view('sensors.create');
     }
 
     /**
