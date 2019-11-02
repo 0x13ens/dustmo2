@@ -22,24 +22,26 @@
               </div>
            </div>
            <div class="col s12 m8 l8">
-                <div id="revenue-chart" class="card animate fadeUp">
-                   <div class="card-content">
-                      <h4 class="header mt-0">
-                         Sensor Info
-                         <span class="purple-text small text-darken-1 ml-1">
-                            <i class="material-icons">keyboard_arrow_up</i> 15.58 %</span>
-                         <a class="waves-effect waves-light btn gradient-45deg-purple-deep-orange gradient-shadow right">Details</a>
-                      </h4>
-                      <div class="row">
-                         <div class="col s12">
-                            <div class="yearly-revenue-chart"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                               <canvas id="thisYearRevenue" class="firstShadow chartjs-render-monitor" height="388" width="1602" style="display: block; height: 259px; width: 1068px;"></canvas>
-                               <canvas id="lastYearRevenue" height="388" width="1602" class="chartjs-render-monitor" style="display: block; height: 259px; width: 1068px;"></canvas>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
+                <div id="chartjs-line-chart" class="card">
+                        <div class="card-content">
+                           <h4 class="card-title">Line Chart</h4>
+                           <p class="caption">
+                              <a href="http://www.chartjs.org/docs/#getting-started" target="_blank">Chart.js</a> provides simple,
+                              responsive,
+                              clean and engaging charts for designers and developers.
+                           </p>
+                           <div class="row">
+                              <div class="col s12">
+                                 <p class="mb-2">
+                                    A line chart is a way of plotting data points on a line. Often, it is used to show trend data, and
+                                    the
+                                    comparison of two data sets.
+                                 </p>
+                                 <div class="sample-chart-wrapper"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div><canvas id="line-chart" height="600" width="2457" class="chartjs-render-monitor" style="display: block; height: 400px; width: 1638px;"></canvas></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
              </div>
         </div>
         <!-- ecommerce product end-->
