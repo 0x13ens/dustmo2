@@ -14,7 +14,7 @@ class SensorController extends Controller
      */
     public function index()
     {
-        $sensors = Sensor::orderBy('id', 'DESC')->paginate(50)->get();
+        $sensors = Sensor::orderBy('id', 'DESC')->get()->paginate(15);
         return view('sensor.index', compact('sensors'));
     }
 
