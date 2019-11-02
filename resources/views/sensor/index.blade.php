@@ -965,28 +965,27 @@
             </div>
             <div class="col s12">
               <table id="data-table-row-grouping" class="display">
-                <thead>
-                   
+                <thead>  
                 <tr>
-  <th data-field="ca">Created At</th>
-  <th data-field="id">id</th>
-  <th data-field="temperature">Temperature</th>
-  <th data-field="Pressure">Pressure</th>
-  <th data-field="Altitude">Altitude</th>
-  <th data-field="Humidity">Humidity</th>
-</tr>
-</thead>
-<tbody>
-@foreach($sensors as $sensor)
-<tr>
-  <td>{{ $sensor->created_at }}</td>
-  <td>{{ $sensor->id }}</td>
-  <td>{{ $sensor->temperature }}</td>
-  <td>{{ $sensor->pressure }}</td>
-  <td>{{ $sensor->altitude }}</td>
-  <td>{{ $sensor->humidity }}</td>
-</tr>
-@endforeach
+                  <th data-field="ca">Created At</th>
+                  <th data-field="id">id</th>
+                  <th data-field="temperature">Temperature</th>
+                  <th data-field="Pressure">Pressure</th>
+                  <th data-field="Altitude">Altitude</th>
+                  <th data-field="Humidity">Humidity</th>
+               </tr>
+               </thead>
+            <tbody>
+                  @foreach($sensors as $sensor)
+                  <tr>
+                  <td>{{ $sensor->created_at }}</td>
+                  <td>{{ $sensor->id }}</td>
+                  <td>{{ $sensor->temperature }}</td>
+                  <td>{{ $sensor->pressure }}</td>
+                  <td>{{ $sensor->altitude }}</td>
+                  <td>{{ $sensor->humidity }}</td>
+                  </tr>
+                  @endforeach
                 </tfoot>
               </table>
             </div>
