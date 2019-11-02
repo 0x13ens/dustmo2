@@ -449,7 +449,7 @@
                 @endforeach
                 </tbody>
               </table>
-              {{ $sensors->links() }}
+              {{$sensors->links("pagination::bootstrap-4")}}
             </div>
           </div>
         </div>
