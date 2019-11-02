@@ -32,7 +32,7 @@
               <input class="header-search-input z-depth-2" type="text" name="Search" placeholder="Explore Materialize">
             </div>
             <ul class="navbar-list right">
-              <li><a class="waves-effect waves-block waves-light" href="javascript:void(0);"><i class="material-icons">add</i></a></li>
+              <li><a class="waves-effect waves-block waves-light add" href="add/sensor"><i class="material-icons">add</i></a></li>
               <li class="hide-on-med-and-down"><a class="waves-effect waves-block waves-light translation-button" href="javascript:void(0);" data-target="translation-dropdown"><span class="flag-icon flag-icon-gb"></span></a></li>
               <li class="hide-on-med-and-down"><a class="waves-effect waves-block waves-light toggle-fullscreen" href="javascript:void(0);"><i class="material-icons">settings_overscan</i></a></li>
               <li class="hide-on-large-only"><a class="waves-effect waves-block waves-light search-button" href="javascript:void(0);"><i class="material-icons">search</i></a></li>
