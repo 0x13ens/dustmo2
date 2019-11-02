@@ -16,7 +16,7 @@
          <div class="card gradient-45deg-light-blue-cyan gradient-shadow min-height-100 white-text animate fadeLeft">
             <div class="padding-3">
                <div class="col s7 m7">
-                  <i class="material-icons background-round mt-5">add_shopping_cart</i>
+                  <i class="material-icons background-round mt-5">waves</i>
                   <p>Pressure</p>
                </div>
                <div class="col s5 m5 right-align">
@@ -30,7 +30,7 @@
          <div class="card gradient-45deg-red-pink gradient-shadow min-height-100 white-text animate fadeLeft">
             <div class="padding-3">
                <div class="col s7 m7">
-                  <i class="material-icons background-round mt-5">perm_identity</i>
+                  <i class="material-icons background-round mt-5">whatshot</i>
                   <p>Feels Like</p>
                </div>
                <div class="col s5 m5 right-align">
