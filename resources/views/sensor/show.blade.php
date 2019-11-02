@@ -19,6 +19,15 @@
                  <div class="card-action border-non center">
                     <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan box-shadow">$ 999/-</a>
                  </div>
+                 <div class="card-action border-non center">
+                        <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan box-shadow">$ 999/-</a>
+                     </div>
+                     <div class="card-action border-non center">
+                            <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan box-shadow">$ 999/-</a>
+                         </div>
+                         <div class="card-action border-non center">
+                                <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan box-shadow">$ 999/-</a>
+                             </div>
               </div>
            </div>
         </div>
