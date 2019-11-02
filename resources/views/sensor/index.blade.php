@@ -449,6 +449,7 @@
                 @endforeach
                 </tbody>
               </table>
+              {{ $sensors->links() }}
             </div>
           </div>
         </div>
