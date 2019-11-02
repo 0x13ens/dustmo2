@@ -964,7 +964,7 @@
                 grouping.</p>
             </div>
             <div class="col s12">
-              <table id="data-table-row-grouping" class="display">
+              <table id="" class="display">
                 <thead>  
                 <tr>
                   <th data-field="ca">Created At</th>
