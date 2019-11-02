@@ -35,7 +35,7 @@
                </div>
                <div class="col s5 m5 right-align">
                   <p class="no-margin"><b>Feels Like</b></p>
-                  <h5 class="mb-0 white-text">690 *C</h5>
+                  <h5 class="mb-0 white-text">690 °C</h5>
                </div>
             </div>
          </div>
