@@ -951,22 +951,81 @@
   </div>
 
 
-  <!-- DataTables Row grouping -->
   <div class="row">
-    <div class="col s12 m12 l12">
-      <div id="button-trigger2" class="card card card-default scrollspy">
+    <div class="col s12">
+      <div class="card">
         <div class="card-content">
-          <h4 class="card-title">DataTables Row grouping</h4>
+          <h4 class="card-title">Scroll - vertical, dynamic height
+          </h4>
           <div class="row">
             <div class="col s12">
-              <p>Although DataTables doesn't have row grouping built-in (picking one of the many methods available
-                would overly limit the DataTables core), it is most certainly possible to give the look and feel of row
-                grouping.</p>
-            </div>
-            <div class="col s12">
-              <table id="scroll-dynamic" class="display">
-                <thead>  
-                <tr>
+              <div id="scroll-dynamic_wrapper" class="dataTables_wrapper"><div id="scroll-dynamic_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="scroll-dynamic"></label></div><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1604px; padding-right: 17px;"><table class="display dataTable" role="grid" style="margin-left: 0px; width: 1604px;"><thead>
+                  <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 283.333px;" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th><th class="sorting" tabindex="0" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 404px;" aria-label="Position: activate to sort column ascending">Position</th><th class="sorting" tabindex="0" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 216px;" aria-label="Office: activate to sort column ascending">Office</th><th class="sorting" tabindex="0" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 164px;" aria-label="Age: activate to sort column ascending">Age</th><th class="sorting" tabindex="0" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 186px;" aria-label="Start date: activate to sort column ascending">Start date</th><th class="sorting" tabindex="0" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 182.667px;" aria-label="Salary: activate to sort column ascending">Salary</th></tr>
+                </thead></table></div></div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; max-height: 50vh; width: 100%;"><table id="scroll-dynamic" class="display dataTable dtr-inline" role="grid" aria-describedby="scroll-dynamic_info" style="width: 100%;"><thead>
+                  <tr role="row" style="height: 0px;"><th class="sorting_asc" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 283.333px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-sort="ascending" aria-label="Name: activate to sort column descending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Name</div></th><th class="sorting" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 404px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Position: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Position</div></th><th class="sorting" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 216px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Office: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Office</div></th><th class="sorting" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 164px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Age: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Age</div></th><th class="sorting" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 186px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Start date: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Start date</div></th><th class="sorting" aria-controls="scroll-dynamic" rowspan="1" colspan="1" style="width: 182.667px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Salary: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Salary</div></th></tr>
+                </thead><tfoot>
+                  <tr style="height: 0px;"><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 283.333px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Name</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 404px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Position</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 216px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Office</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 164px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Age</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 186px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Start date</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 182.667px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Salary</div></th></tr>
+                </tfoot>
+                
+                <tbody>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <tr>
                   <th data-field="ca">Created At</th>
                   <th data-field="id">id</th>
                   <th data-field="temperature">Temperature</th>
@@ -985,9 +1044,11 @@
                   <td>{{ $sensor->altitude }}</td>
                   <td>{{ $sensor->humidity }}</td>
                   </tr>
-                  @endforeach
-                </tfoot>
-              </table>
+                  @endforeach</tbody>
+                
+              </table></div><div class="dataTables_scrollFoot" style="overflow: hidden; border: 0px; width: 100%;"><div class="dataTables_scrollFootInner" style="width: 1604px; padding-right: 17px;"><table class="display dataTable" role="grid" style="margin-left: 0px; width: 1604px;"><tfoot>
+                  <tr><th rowspan="1" colspan="1" style="width: 283.333px;">Name</th><th rowspan="1" colspan="1" style="width: 404px;">Position</th><th rowspan="1" colspan="1" style="width: 216px;">Office</th><th rowspan="1" colspan="1" style="width: 164px;">Age</th><th rowspan="1" colspan="1" style="width: 186px;">Start date</th><th rowspan="1" colspan="1" style="width: 182.667px;">Salary</th></tr>
+                </tfoot></table></div></div></div><div class="dataTables_info" id="scroll-dynamic_info" role="status" aria-live="polite">Showing 1 to 57 of 57 entries</div></div>
             </div>
           </div>
         </div>
