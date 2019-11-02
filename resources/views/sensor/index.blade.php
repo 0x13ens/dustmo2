@@ -20,9 +20,9 @@
                   <p>Pressure</p>
                </div>
                <div class="col s5 m5 right-align">
+                  <p class="no-margin">Pressure</p>
                   <h5 class="mb-0 white-text">690</h5>
                   <p class="no-margin">New</p>
-                  <p>6,00,00</p>
                </div>
             </div>
          </div>
