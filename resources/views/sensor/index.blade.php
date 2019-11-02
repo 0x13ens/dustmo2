@@ -17,7 +17,7 @@
             <div class="padding-4">
                <div class="col s7 m7">
                   <i class="material-icons background-round mt-5">add_shopping_cart</i>
-                  <p>Orders</p>
+                  <p>Pressure</p>
                </div>
                <div class="col s5 m5 right-align">
                   <h5 class="mb-0 white-text">690</h5>
@@ -32,7 +32,7 @@
             <div class="padding-4">
                <div class="col s7 m7">
                   <i class="material-icons background-round mt-5">perm_identity</i>
-                  <p>Clients</p>
+                  <p>Feels Like</p>
                </div>
                <div class="col s5 m5 right-align">
                   <h5 class="mb-0 white-text">1885</h5>
@@ -47,7 +47,7 @@
             <div class="padding-4">
                <div class="col s7 m7">
                   <i class="material-icons background-round mt-5">timeline</i>
-                  <p>Sales</p>
+                  <p>Humidity</p>
                </div>
                <div class="col s5 m5 right-align">
                   <h5 class="mb-0 white-text">80%</h5>
