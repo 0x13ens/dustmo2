@@ -44,7 +44,7 @@
          <div class="card gradient-45deg-amber-amber gradient-shadow min-height-100 white-text animate fadeRight">
             <div class="padding-3">
                <div class="col s7 m7">
-                  <i class="material-icons background-round mt-5">timeline</i>
+                  <i class="material-icons background-round mt-5">opacity</i>
                   <p>Humidity</p>
                </div>
                <div class="col s5 m5 right-align">
