@@ -1,6 +1,10 @@
 // Replace with your network credentials
 const char* ssid     = "Lots of Security";
 const char* password = "Mercedes19";
+
+//const char* ssid     = "iPhone";
+//const char* password = "dustmo";
+
 const char* serverName = "http://dustmo.com/api";
 
 #ifdef ESP32
@@ -94,7 +98,7 @@ void loop() {
     Serial.println("WiFi Disconnected");
   }
   //Send an HTTP POST request every 30 seconds
-  delay(30000);  
+  delay(10000);  
 }
 
 void printValues() {
