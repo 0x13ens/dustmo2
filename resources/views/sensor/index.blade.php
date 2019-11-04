@@ -11,26 +11,6 @@
     <!-- END: Page Level CSS-->
 
             <div class="row">
-              <div class="pt-3 pb-1" id="breadcrumbs-wrapper">
-                <!-- Search for small screen-->
-                <div class="container">
-                  <div class="row">
-                    <div class="col s12 m6 l6">
-                      <h5 class="breadcrumbs-title mt-0 mb-0">eCommerce Products Page</h5>
-                    </div>
-                    <div class="col s12 m6 l6 right-align-md">
-                      <ol class="breadcrumbs mb-0">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a>
-                        </li>
-                        <li class="breadcrumb-item"><a href="#">Apps</a>
-                        </li>
-                        <li class="breadcrumb-item active">eCommerce Products Page
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="col s12">
                 <div class="container">
                   <div class="section">
