@@ -24,10 +24,10 @@
                   <li>
                     <div class="collapsible-header">Home <i class="material-icons"> keyboard_arrow_right </i></div>
                     <div class="collapsible-body">
-                      <p>Apple</p>
-                      <p>Fitbit</p>
-                      <p>Samsung</p>
-                      <p>Fastrack</p>
+                      <p>Living Room</p>
+                      <p>Office</p>
+                      <p>Bedroom</p>
+                      <p>Kitchen</p>
                     </div>
                   </li>
                   <li>
