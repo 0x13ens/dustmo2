@@ -49,7 +49,7 @@
               <div class="col s12 m3">
                  <div class="card gradient-shadow gradient-45deg-light-blue-cyan border-radius-3 animate fadeUp">
                     <div class="card-content center">
-                       <img src="../../../app-assets/images/weather/warning.png" class="width-40 border-round z-depth-5" alt="">
+                       <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
                        <h5 class="white-text lighten-4">{{ $temperature->pressure }} <small>hPa</small></h5>
                        <p class="white-text lighten-4">Pressure</p>
                     </div>
@@ -67,7 +67,7 @@
               <div class="col s12 m3">
                  <div class="card gradient-shadow gradient-45deg-amber-amber border-radius-3 animate fadeUp">
                     <div class="card-content center">
-                       <img src="../../../app-assets/images/weather/screwed.png" class="width-40 border-round z-depth-5" alt="">
+                       <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
                        <h5 class="white-text lighten-4">{{ $temperature->altitude }}</h5>
                        <p class="white-text lighten-4">Altitude</p>
                     </div>
@@ -134,19 +134,19 @@
                         @if ($sensor->temperature <= 9)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> ℃ Hypothermia Risk</b> </td>
 
-@elseif ($sensor->temperature <= 12)
+                        @elseif ($sensor->temperature <= 12)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> ℃ Cardiovascular Risk</b> </td>
 
-@elseif ($sensor->temperature <= 16)
+                        @elseif ($sensor->temperature <= 16)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> ℃ Respiratory Risk</b> </td>
 
-@elseif ($sensor->temperature <= 23.99)
+                        @elseif ($sensor->temperature <= 23.99)
                         <td><b><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> ℃  Comfortable</b> </td>
 
-@elseif ($sensor->temperature >= 24)
+                        @elseif ($sensor->temperature >= 24)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> ℃  Cardiovascular Risk</b> </td>
 
-@endif
+                        @endif
 
 
                         <td>{{ $sensor->pressure }} <b>hPa</b></td>
