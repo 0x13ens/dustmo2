@@ -59,7 +59,7 @@
                  <div class="card gradient-shadow gradient-45deg-red-pink border-radius-3 animate fadeUp">
                     <div class="card-content center">
                        <img src="../../../app-assets/images/icon/printer.png" class="width-40 border-round z-depth-5" alt="">
-                       <h5 class="white-text lighten-4">20% Off</h5>
+                    <h5 class="white-text lighten-4">{{ $temperature }} °C</h5>
                        <p class="white-text lighten-4">Temperature</p>
                     </div>
                  </div>
@@ -139,7 +139,7 @@
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Respiratory Risk</b> </td>
                         @elseif ($sensor->temperature < 21)
                         <td><b><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> °C  Comfortable</b> </td>
-                        @elseif ($sensor->temperature > 24)
+                        @elseif ($sensor->temperature > 24 )
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C  Cardiovascular Risk</b> </td>
                         @endif
 
