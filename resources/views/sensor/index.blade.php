@@ -59,21 +59,7 @@
                     </div>
                   </li>
                 </ul>
-                <span class="card-title mt-10">Price</span>
-                <hr class="p-0 mb-10">
-                <div id="price-slider"></div>
-                <span class="card-title mt-10">Size</span>
-                <hr class="p-0 mb-10">
-                <div class="size-filter">
-                  <ul>
-                    <li><a href="#">XL</a></li>
-                    <li><a href="#">L</a></li>
-                    <li class="active"><a href="#">M</a></li>
-                    <li><a href="#">S</a></li>
-                    <li><a href="#">XS</a></li>
-                  </ul>
-                </div>
-                <span class="card-title mt-10">Color</span>
+                <span class="card-title mt-10">Air Quality</span>
                 <hr class="p-0 mb-10">
                 <form action="#" class="display-grid">
                   <label class="mt-3">
