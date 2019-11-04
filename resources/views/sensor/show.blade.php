@@ -59,7 +59,7 @@
                  <div class="card gradient-shadow gradient-45deg-red-pink border-radius-3 animate fadeUp">
                     <div class="card-content center">
                        <img src="../../../app-assets/images/icon/printer.png" class="width-40 border-round z-depth-5" alt="">
-                    <h5 class="white-text lighten-4">{{ $temperature->temperature }} <small>°C</small></h5>
+                    <h5 class="white-text lighten-4">{{ $temperature->temperature }} <small>℃</small></h5>
                        <p class="white-text lighten-4">Temperature</p>
                     </div>
                  </div>
