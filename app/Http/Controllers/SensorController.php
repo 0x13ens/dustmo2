@@ -60,7 +60,7 @@ class SensorController extends Controller
         $temperature = Sensor::orderby('id', 'desc')->first();
         $pressure = Sensor::orderby('id', 'desc')->first();
         $altitude = Sensor::orderby('id', 'desc')->first();
-        return view('sensor.show', compact('sensors'));
+        return view('sensor.show', compact('sensors', 'temperature', 'pressure', 'altitude'));
     }
 
     /**

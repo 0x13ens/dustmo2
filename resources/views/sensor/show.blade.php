@@ -68,7 +68,7 @@
                  <div class="card gradient-shadow gradient-45deg-amber-amber border-radius-3 animate fadeUp">
                     <div class="card-content center">
                        <img src="../../../app-assets/images/icon/laptop.png" class="width-40 border-round z-depth-5" alt="">
-                       <h5 class="white-text lighten-4">40% Off</h5>
+                       <h5 class="white-text lighten-4">{{ $temperature->altitude }}</h5>
                        <p class="white-text lighten-4">Altitude</p>
                     </div>
                  </div>
