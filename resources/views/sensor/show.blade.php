@@ -113,13 +113,39 @@
                     <tbody>
                     @foreach($sensors as $sensor)
                       <tr>
-
                         <td>{{ $sensor->id }}</td>
-                        @if ($sensor->temperature > 18)
-                        <td><b><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> °C Comfortable</b> </td>
-                        @else
-                        <td><b>{{ $sensor->temperature }} °C</b></td>
+
+                        <!--The basic level of warmth required for a healthy and well-dressed person is 18°C. This standard is recognized by the World Health Organization and is the minimum standard in the latest UK cold weather plan.
+
+                        Here are some basic benchmarks for indoor temperatures:
+
+                        > 24°C  - cardiovascular risk
+
+                        18-21°C -  comfortable temperature
+
+                        18°C   - minimum for comfort
+
+                        12-16°C   - respiratory risk
+
+                        <12°C  - cardiovascular risk
+
+                        9°C – hypothermia risk -->
+
+                        @if ($sensor->temperature < 9)
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Hypothermia risk</b> </td>
+                        @elseif ($sensor->temperature < 12)
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Cardiovascular risk</b> </td>
+                        @elseif ($sensor->temperature > 12)
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Respiratory risk</b> </td>
+                        @elseif ($sensor->temperature = 18)
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Minimum Confort Level</b> </td>
+                        @elseif ($sensor->temperature > 18)
+                        <td><b><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> °C  Comfortable</b> </td>
+                        @elseif ($sensor->temperature > 24)
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C  cardiovascular risk</b> </td>
                         @endif
+
+
                         <td>{{ $sensor->pressure }} <b>hPa</b></td>
                         <td>{{ $sensor->altitude }}</td>
                         @if ($sensor->humidity > 30 ) <!-- If the humidity is over 40% we make it bold -->
