@@ -140,7 +140,7 @@
 @elseif ($sensor->temperature <= 16)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Respiratory Risk</b> </td>
 
-@elseif ($sensor->temperature <= 21)
+@elseif ($sensor->temperature <= 23)
                         <td><b><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> °C  Comfortable</b> </td>
 
 @elseif ($sensor->temperature >= 24)
