@@ -49,7 +49,7 @@
                     </div>
                   </li>
                   <li>
-                    <div class="collapsible-header">Phone <i class="material-icons"> keyboard_arrow_right </i></div>
+                    <div class="collapsible-header">Car <i class="material-icons"> keyboard_arrow_right </i></div>
                     <div class="collapsible-body">
                       <p>Apple</p>
                       <p>Samsung</p>
