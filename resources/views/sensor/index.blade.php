@@ -5,7 +5,8 @@
 @endsection
 
 @section('content')
-
+<link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/vertical-gradient-menu-template/materialize.css">
+<link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/vertical-gradient-menu-template/style.css">
 <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/eCommerce-products-page.css">
     <!-- END: Page Level CSS-->
 
@@ -1047,6 +1048,10 @@
             </div>
          </div>
 
+         <!-- BEGIN PAGE VENDOR JS-->
+           <script src="../../../app-assets/vendors/noUiSlider/nouislider.min.js" type="text/javascript"></script>
+
           <!-- BEGIN PAGE LEVEL JS-->
-    <script src="../../../app-assets/js/scripts/eCommerce-products-page.js" type="text/javascript"></script>
+          <script src="../../../app-assets/js/scripts/advance-ui-modals.js" type="text/javascript"></script>
+          <script src="../../../app-assets/js/scripts/eCommerce-products-page.js" type="text/javascript"></script>
 @endsection
