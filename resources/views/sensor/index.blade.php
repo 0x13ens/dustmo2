@@ -18,11 +18,11 @@
           <div class="col s12 m3 l3 pr-0 hide-on-med-and-down animate fadeLeft">
             <div class="card">
               <div class="card-content">
-                <span class="card-title">Categories</span>
+                <span class="card-title">Sensors</span>
                 <hr class="p-0 mb-10">
                 <ul class="collapsible categories-collapsible">
                   <li>
-                    <div class="collapsible-header">Watches <i class="material-icons"> keyboard_arrow_right </i></div>
+                    <div class="collapsible-header">Home <i class="material-icons"> keyboard_arrow_right </i></div>
                     <div class="collapsible-body">
                       <p>Apple</p>
                       <p>Fitbit</p>
@@ -31,7 +31,7 @@
                     </div>
                   </li>
                   <li>
-                    <div class="collapsible-header">Tablets <i class="material-icons"> keyboard_arrow_right </i></div>
+                    <div class="collapsible-header">Garden <i class="material-icons"> keyboard_arrow_right </i></div>
                     <div class="collapsible-body">
                       <p>Apple</p>
                       <p>Samsung</p>
@@ -39,7 +39,7 @@
                     </div>
                   </li>
                   <li>
-                    <div class="collapsible-header">Laptops <i class="material-icons"> keyboard_arrow_right </i></div>
+                    <div class="collapsible-header">Work <i class="material-icons"> keyboard_arrow_right </i></div>
                     <div class="collapsible-body">
                       <p>Apple</p>
                       <p>Samsung</p>
