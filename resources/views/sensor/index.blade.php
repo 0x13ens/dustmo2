@@ -8,9 +8,6 @@
 
 <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/eCommerce-products-page.css">
     <!-- END: Page Level CSS-->
-    <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/custom/custom.css">
-    <!-- END: Custom CSS-->
 
     <div id="main">
             <div class="row">
@@ -1179,6 +1176,5 @@
           </div>
 
           <!-- BEGIN PAGE LEVEL JS-->
-    <script src="../../../app-assets/js/scripts/advance-ui-modals.js" type="text/javascript"></script>
     <script src="../../../app-assets/js/scripts/eCommerce-products-page.js" type="text/javascript"></script>
 @endsection
