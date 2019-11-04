@@ -116,14 +116,14 @@
 
                         <td>{{ $sensor->id }}</td>
                         @if ($sensor->temperature > 18)
-                        <td><span class="green-text text-darken-2">{{ $sensor->temperature }}</span> <b> °C Comfortable</b> </td>
+                        <td><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> <b> °C Comfortable</b> </td>
                         @else
                         <td><b>{{ $sensor->temperature }} °C</b></td>
                         @endif
                         <td>{{ $sensor->pressure }} <b>hPa</b></td>
                         <td>{{ $sensor->altitude }}</td>
                         @if ($sensor->humidity > 30 ) <!-- If the humidity is over 40% we make it bold -->
-                        <td><b><span class="red-text text-darken-2">{{ $sensor->humidity }}</span> % Comfortable</b></td>
+                        <td><b><span class="blue-text text-darken-2">{{ $sensor->humidity }}</span> % Comfortable</b></td>
                         @elseif ($sensor->humidity > 55)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->humidity }}</span> % High</b></td>
                         @else
