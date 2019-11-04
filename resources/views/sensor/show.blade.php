@@ -132,19 +132,19 @@
                         9°C – hypothermia risk -->
 
                         @if ($sensor->temperature <= 9)
-                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Hypothermia Risk</b> </td>
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> ℃ Hypothermia Risk</b> </td>
 
 @elseif ($sensor->temperature <= 12)
-                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Cardiovascular Risk</b> </td>
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> ℃ Cardiovascular Risk</b> </td>
 
 @elseif ($sensor->temperature <= 16)
-                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Respiratory Risk</b> </td>
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> ℃ Respiratory Risk</b> </td>
 
 @elseif ($sensor->temperature <= 23)
-                        <td><b><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> °C  Comfortable</b> </td>
+                        <td><b><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> ℃  Comfortable</b> </td>
 
 @elseif ($sensor->temperature >= 24)
-                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C  Cardiovascular Risk</b> </td>
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> ℃  Cardiovascular Risk</b> </td>
 
 @endif
 
