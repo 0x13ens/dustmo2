@@ -49,13 +49,8 @@
               <div class="col s12 m3">
                  <div class="card gradient-shadow gradient-45deg-light-blue-cyan border-radius-3 animate fadeUp">
                     <div class="card-content center">
-                    @if ($sensor->pressure > 900)
                        <img src="../../../app-assets/images/icon/apple-watch.png" class="width-40 border-round z-depth-5" alt="">
                        <h5 class="white-text lighten-4">{{ $temperature->pressure }} <small>hPa</small></h5>
-                    @else ($sensor->pressure < 900)
-                       <img src="../../../app-assets/images/icon/nope.png" class="width-40 border-round z-depth-5" alt="">
-                       <h5 class="white-text lighten-4">{{ $temperature->pressure }} <small>hPa</small></h5>
-                    @endif
                        <p class="white-text lighten-4">Pressure</p>
                     </div>
                  </div>
