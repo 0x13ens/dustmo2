@@ -56,8 +56,10 @@ class SensorController extends Controller
      */
     public function show($id)
     {
+        $temperature = Sensor::where('temperature', 1)->get();
+        $names = Model::where('age', '29')->pluck('name');
         $sensors = Sensor::orderBy('id', 'DESC')->paginate(50);
-        return view('sensor.show', compact('sensors'));
+        return view('sensor.show', compact('sensors', 'temperature'));
     }
 
     /**
