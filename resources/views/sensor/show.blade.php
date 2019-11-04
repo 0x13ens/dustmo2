@@ -134,18 +134,29 @@
                         @if ($sensor->temperature <= 9)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Hypothermia Risk</b> </td>
 
-                        @elseif ($sensor->temperature <= 12)
+@elseif ($sensor->temperature <= 12)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Cardiovascular Risk</b> </td>
 
-                        @elseif ($sensor->temperature <= 16)
+@elseif ($sensor->temperature <= 16)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C Respiratory Risk</b> </td>
 
-                        @elseif ($sensor->temperature <= 21)
+@elseif ($sensor->temperature <= 21)
                         <td><b><span class="blue-text text-darken-2">{{ $sensor->temperature }}</span> °C  Comfortable</b> </td>
 
-                        @elseif ($sensor->temperature >= 24)
+@elseif ($sensor->temperature >= 24)
                         <td><b><span class="red-text text-darken-2">{{ $sensor->temperature }}</span> °C  Cardiovascular Risk</b> </td>
 
+@endif
+
+
+                        <td>{{ $sensor->pressure }} <b>hPa</b></td>
+                        <td>{{ $sensor->altitude }}</td>
+                        @if ($sensor->humidity > 30 ) <!-- If the humidity is over 40% we make it bold -->
+                        <td><b><span class="blue-text text-darken-2">{{ $sensor->humidity }}</span> % Comfortable</b></td>
+                        @elseif ($sensor->humidity > 55)
+                        <td><b><span class="red-text text-darken-2">{{ $sensor->humidity }}</span> % High</b></td>
+                        @else
+                        <td>{{ $sensor->humidity }} %</td>
                         @endif
                       </tr>
                     @endforeach
