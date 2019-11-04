@@ -56,8 +56,8 @@ class SensorController extends Controller
      */
     public function show($id)
     {
-        $sensors = Sensor::orderBy('id', 'DESC')->paginate(50); // pull in all temperatures values and paginate by 50
-        return view('sensor.show', compact('sensors', 'temperature'));
+        $sensors = Sensor::orderBy('id', 'DESC')->paginate(50);
+        return view('sensor.show', compact('sensors'));
     }
 
     /**
