@@ -129,6 +129,221 @@
                 </div>
              </div>
              <!-- ecommerce offers end-->
+
+             <!-- ecommerce offers start-->
+        <div id="ecommerce-offer">
+                <div class="row">
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-light-blue-cyan border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->pressure }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">LPG</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-red-pink border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                         <h5 class="white-text lighten-4">{{ $temperature->temperature }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">Smoke</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-amber-amber border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->altitude }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">CO</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-green-teal border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/humidity.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->humidity }}  <small>%</small></h5>
+                            <p class="white-text lighten-4">Humidity</p>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <!-- ecommerce offers end-->
+
+             <!-- ecommerce offers start-->
+        <div id="ecommerce-offer">
+                <div class="row">
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-light-blue-cyan border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->pressure }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">LPG</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-red-pink border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                         <h5 class="white-text lighten-4">{{ $temperature->temperature }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">Smoke</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-amber-amber border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->altitude }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">CO</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-green-teal border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/humidity.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->humidity }}  <small>%</small></h5>
+                            <p class="white-text lighten-4">Humidity</p>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <!-- ecommerce offers end-->
+
+             <!-- ecommerce offers start-->
+        <div id="ecommerce-offer">
+                <div class="row">
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-light-blue-cyan border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->pressure }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">LPG</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-red-pink border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                         <h5 class="white-text lighten-4">{{ $temperature->temperature }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">Smoke</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-amber-amber border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->altitude }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">CO</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-green-teal border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/humidity.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->humidity }}  <small>%</small></h5>
+                            <p class="white-text lighten-4">Humidity</p>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <!-- ecommerce offers end-->
+
+             <!-- ecommerce offers start-->
+        <div id="ecommerce-offer">
+                <div class="row">
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-light-blue-cyan border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->pressure }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">LPG</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-red-pink border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                         <h5 class="white-text lighten-4">{{ $temperature->temperature }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">Smoke</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-amber-amber border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->altitude }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">CO</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-green-teal border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/humidity.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->humidity }}  <small>%</small></h5>
+                            <p class="white-text lighten-4">Humidity</p>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <!-- ecommerce offers end-->
+
+             <!-- ecommerce offers start-->
+        <div id="ecommerce-offer">
+                <div class="row">
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-light-blue-cyan border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->pressure }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">LPG</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-red-pink border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                         <h5 class="white-text lighten-4">{{ $temperature->temperature }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">Smoke</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-amber-amber border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/good.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->altitude }} <small>PPM</small></h5>
+                            <p class="white-text lighten-4">CO</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col s12 m3">
+                      <div class="card gradient-shadow gradient-45deg-green-teal border-radius-3 animate fadeUp">
+                         <div class="card-content center">
+                            <img src="../../../app-assets/images/weather/humidity.png" class="width-40 border-round z-depth-5" alt="">
+                            <h5 class="white-text lighten-4">{{ $temperature->humidity }}  <small>%</small></h5>
+                            <p class="white-text lighten-4">Humidity</p>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <!-- ecommerce offers end-->
              <!-- //////////////////////////////////////////////////////////////////////////// -->
      </div>
 
