@@ -108,6 +108,9 @@
                         <th data-field="Pressure">Pressure</th>
                         <th data-field="Altitude">Altitude</th>
                         <th data-field="Humidity">Humidity</th>
+                        <th data-field="LPG">LPG</th>
+                        <th data-field="C0">C0</th>
+                        <th data-field="Smoke">Smoke</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -158,6 +161,9 @@
                         @else
                         <td>{{ $sensor->humidity }} %</td>
                         @endif
+                        <td>0 ppm</td>
+                        <td>0 ppm</td>
+                        <td>0 ppm</td>
                       </tr>
                     @endforeach
                     </tbody>
