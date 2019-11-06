@@ -45,6 +45,9 @@
         <!-- ecommerce product end-->
         <!-- ecommerce offers start-->
         <div id="ecommerce-offer">
+
+            <!-- High pressure = Low pressure = thunderstorms if a fire starts in the bottom of a high rise building the smoke rises to counter this
+            some buildings seal off the top flow to create a high pressure meaning the smoke cannot rise which kills people.-->
            <div class="row">
               <div class="col s12 m3">
                  <div class="card gradient-shadow gradient-45deg-light-blue-cyan border-radius-3 animate fadeUp">
