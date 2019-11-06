@@ -9,7 +9,7 @@ class sensor extends Model
     protected $table = 'sensors';
 
     protected $fillable = [
-        'dustDensity', 'calcVoltage', 'voMeasured', 'temperature', 'pressure', 'altitude', 'humidity', 'room_id'
+        'dustDensity', 'calcVoltage', 'voMeasured', 'temperature', 'pressure', 'altitude', 'humidity'
     ];
 
     // A sensor belongs to a user
