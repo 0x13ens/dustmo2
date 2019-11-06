@@ -13,7 +13,7 @@
                  <div class="card-content  center">
                     <h6 class="card-title font-weight-400 mb-0">Airmo Nano</h6>
                     <img src="../../../app-assets/images/cards/airmo-nano.png" alt="" class="responsive-img">
-                    <p><b>{{ $sensor->category['name'] }} Sensor</b></p>
+                    <p><b>{!! $sensor->category->name !!} Sensor</b></p>
                     <p>Pressure, Temperature, Humidity</p>
                  </div>
                  <div class="card-action border-non center">
