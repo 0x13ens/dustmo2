@@ -8,6 +8,14 @@ use Illuminate\Http\Request;
 class SensorController extends Controller
 {
     /**
+     * Only allow logged in users to see the dashboard.
+     *
+     *
+    */
+    public function __construct() {
+        $this->middleware('auth');
+    }
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
