@@ -1,5 +1,6 @@
 <?php
 
+Route::resource('weather', 'WeatherController');
 Route::resource('sensors', 'SensorController');
 
 Route::get('/', function () {
