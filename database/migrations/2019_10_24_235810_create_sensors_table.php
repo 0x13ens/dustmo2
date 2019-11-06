@@ -16,7 +16,7 @@ class CreateSensorsTable extends Migration
         Schema::create('sensors', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('user_id')->nullable(); // An Airmo must belong to a user this gets configured though the android app after user login,
-                                                    // this also allows us to filter users indivdual data to their accounts
+                                                 // this also allows us to filter users indivdual data to their accounts
             $table->string('serial')->nullable();   // An Airmo must also have a serial in which we use the devices unique mac address
             $table->string('dustDensity')->nullable();
             $table->string('voMeasured')->nullable();
