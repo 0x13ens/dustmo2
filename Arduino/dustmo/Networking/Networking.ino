@@ -5,7 +5,12 @@ const char* password = "Mercedes19";
 //const char* ssid     = "iPhone";
 //const char* password = "dustmo";
 
+uint64_t macAddress = ESP.getEfuseMac();
+uint64_t macAddressTrunc = macAddress << 40;
+
 const char* serverName = "http://dustmo.com/api";
+
+uint64_t chipid;  
 
 #ifdef ESP32
   #include <HTTPClient.h>
@@ -29,6 +34,9 @@ void setup() {
   Wire.begin(SDA,SCL);
   Wire.begin(4,5);
   Serial.begin(115200);
+   chipid=ESP.getEfuseMac();//The chip ID is essentially its MAC address(length: 6 bytes).
+   Serial.printf("ESP32 Chip ID = %04X",(uint16_t)(chipid>>32));//print High 2 bytes
+   Serial.printf("%08X\n",(uint32_t)chipid);//print Low 4bytes.
   Serial.println(F("BME280 test"));
   bool status;
 
