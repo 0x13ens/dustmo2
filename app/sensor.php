@@ -18,10 +18,4 @@ class sensor extends Model
     {
         return $this->belongsTo('App\User');
     }
-
-    public function Room()
-    {
-        return $this->belongsTo('App\Room');
-    }
-
 }
