@@ -57,13 +57,12 @@ class SensorController extends Controller
      */
     public function show($id)
     {
-        $rooms = Room::all();
         $sensors = Sensor::orderBy('id', 'DESC')->paginate(50);
         $temperature = Sensor::orderby('id', 'desc')->first();
         $pressure = Sensor::orderby('id', 'desc')->first();
         $altitude = Sensor::orderby('id', 'desc')->first();
         $humidity = Sensor::orderby('id', 'desc')->first();
-        return view('sensor.show', compact('sensors', 'temperature', 'pressure', 'altitude', 'humidity', 'rooms'));
+        return view('sensor.show', compact('sensors', 'temperature', 'pressure', 'altitude', 'humidity'));
     }
 
     /**
