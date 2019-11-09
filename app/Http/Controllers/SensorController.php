@@ -45,6 +45,7 @@ class SensorController extends Controller
         $sensor->pressure       =  $request->get('pressure', "n/a");
         $sensor->altitude       =  $request->get('altitude', "n/a");
         $sensor->humidity       =  $request->get('humidity', "n/a");
+        $sensor->c02            =  $request->get('c02', "n/a");
 
         $sensor->save();
     }
