@@ -55,7 +55,12 @@
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">lock_outline</i>
-          <input id="password" type="password">
+          <input id="password" type="password" @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+          @error('password')
+            <span class="invalid-feedback" role="alert">
+                <strong>{{ $message }}</strong>
+            </span>
+           @enderror
           <label for="password">Password</label>
         </div>
       </div>
