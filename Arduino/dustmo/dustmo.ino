@@ -6,7 +6,7 @@ const char* password = "Mercedes19";
 //const char* ssid     = "iPhone";
 //const char* password = "dustmo";
 
-const char* serverName = "http://dustmo.com/api";
+const char* serverName = "http://dustmo.com/api/sensors";
 
 #ifdef ESP32
   #include <HTTPClient.h>
