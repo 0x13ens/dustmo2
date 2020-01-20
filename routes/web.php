@@ -1,7 +1,10 @@
 <?php
 
-Route::resource('weather', 'WeatherController');
-Route::resource('sensors', 'SensorController');
+Route::group(['middleware' => 'auth'], function()
+{
+    Route::resource('weather', 'WeatherController');
+    Route::resource('sensors', 'SensorController');
+});
 
 Route::get('/', function () {
     return view('welcome');
