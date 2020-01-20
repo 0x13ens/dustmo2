@@ -80,9 +80,6 @@
                 <i class="material-icons">keyboard_tab</i> Logout</a>
             </a>
             <li>
-            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                @csrf
-            </form>
             </ul>
           </div>
           <nav class="display-none search-sm">
@@ -166,6 +163,10 @@
         <div class="container"><span>&copy; 2019          <a href="/app" target="_blank">Dustmo</a> All rights reserved.</span><span class="right hide-on-small-only">Dustmo</span></div>
       </div>
     </footer>
+
+    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+        @csrf
+    </form>
 
     <!-- END: Footer-->
     <!-- BEGIN VENDOR JS-->
