@@ -64,8 +64,8 @@
         <div class="col s12 m12 l12 ml-2 mt-1">
           <p>
             <label>
-              <input type="checkbox" />
-              <span>Remember Me</span>
+              <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+              <span>{{ __('Remember Me') }}</span>
             </label>
           </p>
         </div>
