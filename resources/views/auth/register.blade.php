@@ -158,7 +158,6 @@
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">lock_outline</i>
-          <div class="col-md-6">
             <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
             </div>
           <label for="password-confirm">{{ __('Confirm Password') }}</label>
