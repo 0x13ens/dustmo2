@@ -76,7 +76,10 @@
               <li><a class="grey-text text-darken-1" href="page-faq.html"><i class="material-icons">help_outline</i> Help</a></li>
               <li class="divider"></li>
               <li><a class="grey-text text-darken-1" href="user-lock-screen.html"><i class="material-icons">lock_outline</i> Lock</a></li>
-              <li><a class="grey-text text-darken-1" href="{{ url('/logout') }}"><i class="material-icons">keyboard_tab</i> Logout</a></li>
+              <li><a class="grey-text text-darken-1" href="http://dustmo.com/logout" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i class="material-icons">keyboard_tab</i>Logout
+                                        Logout
+                </a></li>
             </ul>
           </div>
           <nav class="display-none search-sm">
