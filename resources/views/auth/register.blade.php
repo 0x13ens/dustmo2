@@ -164,14 +164,15 @@
           <label for="password-confirm">{{ __('Confirm Password') }}</label>
         </div>
       </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <a href="index.html" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">Register</a>
-        </div>
+      <div class="input-field col s12">
+        <button type="submit" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">
+            {{ __('Register') }}
+        </button>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <p class="margin medium-small"><a href="user-login.html">Already have an account? Login</a></p>
+          <p class="margin medium-small">
+              <a href="user-login.html">Already have an account? Login</a></p>
         </div>
       </div>
     </form>
