@@ -77,9 +77,8 @@
               <li class="divider"></li>
               <li><a class="grey-text text-darken-1" href="user-lock-screen.html"><i class="material-icons">lock_outline</i> Lock</a></li>
               <!-- TODO: Logout Displays white space? -->
-              <a class="grey-text text-darken-1" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-                <i class="material-icons">keyboard_tab</i> Logout</a>
-            </a>
+              <li><a class="grey-text text-darken-1" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                <i class="material-icons">keyboard_tab</i> Logout</a><li>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                 @csrf
             </form>
