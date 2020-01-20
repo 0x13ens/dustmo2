@@ -78,8 +78,10 @@
               <li><a class="grey-text text-darken-1" href="user-lock-screen.html"><i class="material-icons">lock_outline</i> Lock</a></li>
               <li><a class="grey-text text-darken-1" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                 <i class="material-icons">keyboard_tab</i> Logout</a>
-            </a>
-            <li>
+            </a><li>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
             </ul>
           </div>
           <nav class="display-none search-sm">
@@ -163,10 +165,6 @@
         <div class="container"><span>&copy; 2019          <a href="/app" target="_blank">Dustmo</a> All rights reserved.</span><span class="right hide-on-small-only">Dustmo</span></div>
       </div>
     </footer>
-
-    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-        @csrf
-    </form>
 
     <!-- END: Footer-->
     <!-- BEGIN VENDOR JS-->
