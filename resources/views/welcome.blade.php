@@ -50,10 +50,11 @@
       <div class="menu__item">
         <nav class="menu__right-nav d-l-none">
           <ul>
+            <!-- if user logged in display dashboard link if not display login link -->
             @if(Auth::user())
             <li><a href="sensors" class="site-btn site-btn--accent">Dashboard</a></li>
             @else
-                <li><a href="sensors" class="site-btn site-btn--accent">Login</a></li>
+                <li><a href="regiser" class="site-btn site-btn--accent">Login</a></li>
             @endif
             <li>
               <div class="menu__dropdown d-t-none">
