@@ -54,7 +54,7 @@
             @if(Auth::user())
             <li><a href="sensors" class="site-btn site-btn--accent">Dashboard</a></li>
             @else
-                <li><a href="{{ route('password.register') }}" class="site-btn site-btn--accent">Login</a></li>
+                <li><a href="{{ route('register') }}" class="site-btn site-btn--accent">Login</a></li>
             @endif
             <li>
               <div class="menu__dropdown d-t-none">
