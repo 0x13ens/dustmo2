@@ -144,17 +144,11 @@
       </div>
       <div class="row margin">
         <div class="input-field col s12">
-          <i class="material-icons prefix pt-2">lock_outline</i>
-          <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-          <label for="password">Password</label>
+            <i class="material-icons prefix pt-2">lock_outline</i>
+            <input id="password-again" type="password">
+            <label for="password-again">Password again</label>
         </div>
-      </div>
+    </div>
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">lock_outline</i>
@@ -164,10 +158,11 @@
           <label for="password-confirm">{{ __('Confirm Password') }}</label>
         </div>
       </div>
-      <div class="input-field col s12">
+      <div class="row">
         <button type="submit" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">
             {{ __('Register') }}
         </button>
+
       </div>
       <div class="row">
         <div class="input-field col s12">
