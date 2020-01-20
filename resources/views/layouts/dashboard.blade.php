@@ -79,10 +79,10 @@
               <li><a class="grey-text text-darken-1" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                 <i class="material-icons">keyboard_tab</i> Logout</a>
             </a>
+            <li>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                 @csrf
             </form>
-            <li>
             </ul>
           </div>
           <nav class="display-none search-sm">
