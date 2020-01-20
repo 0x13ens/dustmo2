@@ -145,18 +145,17 @@
       <div class="row margin">
         <div class="input-field col s12">
             <i class="material-icons prefix pt-2">lock_outline</i>
+            <input id="password" type="password">
+            <label for="password">Password</label>
+        </div>
+    </div>
+    <div class="row margin">
+        <div class="input-field col s12">
+            <i class="material-icons prefix pt-2">lock_outline</i>
             <input id="password-again" type="password">
             <label for="password-again">Password again</label>
         </div>
     </div>
-      <div class="row margin">
-        <div class="input-field col s12">
-          <i class="material-icons prefix pt-2">lock_outline</i>
-          <div class="col-md-6">
-            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-            </div>
-          <label for="password-confirm">{{ __('Confirm Password') }}</label>
-        </div>
       </div>
       <div class="row">
         <button type="submit" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">
