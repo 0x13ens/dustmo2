@@ -92,7 +92,7 @@
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <p class="margin medium-small"><a href="user-login.html">Already have an account? Login</a></p>
+          <p class="margin medium-small"><a href="{{ route('login') }}">Already have an account? Login</a></p>
         </div>
       </div>
     </form>
