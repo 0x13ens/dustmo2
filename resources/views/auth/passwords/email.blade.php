@@ -81,7 +81,8 @@
             <div class="container">
                 <div id="forgot-password" class="row">
                     <div class="col s12 m6 l4 z-depth-4 offset-m4 card-panel border-radius-6 forgot-card bg-opacity-8">
-                        <form class="login-form">
+                        <form method="POST" action="{{ route('password.email') }}">
+                            @csrf
                             <div class="row">
                                 <div class="input-field col s12">
                                     <h5 class="ml-4">{{ __('Reset Password') }}</h5>
@@ -91,14 +92,21 @@
                             <div class="row">
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix pt-2">person_outline</i>
-                                    <input id="email" type="email">
-                                    <label for="email" class="center-align">Email</label>
+                                    <input id="email" type="email" @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+                                        @error('email')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
+                                    <label for="email">{{ __('E-Mail Address') }}</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <a href="index.html" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12 mb-1">Reset
-                                        Password</a>
+                                    <button type="submit" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12 mb-1">
+                                        {{ __('Send Password Reset Link') }}
+                                    </button>
                                 </div>
                             </div>
                             <div class="row">
