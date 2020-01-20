@@ -78,7 +78,7 @@
               <li><a class="grey-text text-darken-1" href="user-lock-screen.html"><i class="material-icons">lock_outline</i> Lock</a></li>
               <li><form method="POST" action="{{ route('logout') }}">
                 @csrf
-                <button class="grey-text text-darken-1" type="submit"><i class="material-icons">keyboard_tab</i>Logout</button>
+                <a class="grey-text text-darken-1" type="submit"><i class="material-icons">keyboard_tab</i>Logout</a>
               </form></li>
             </ul>
           </div>
