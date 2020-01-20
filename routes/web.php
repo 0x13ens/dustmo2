@@ -1,5 +1,6 @@
 <?php
 
+//this makes sure only registered users can access these routes //
 Route::group(['middleware' => 'auth'], function()
 {
     Route::resource('weather', 'WeatherController');
