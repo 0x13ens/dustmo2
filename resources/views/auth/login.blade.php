@@ -72,7 +72,9 @@
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <a href="index.html" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">Login</a>
+          <button type="submit" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">
+            {{ __('Login') }}
+        </button>
         </div>
       </div>
       <div class="row">
@@ -80,7 +82,13 @@
           <p class="margin medium-small"><a href="/register">Register Now!</a></p>
         </div>
         <div class="input-field col s6 m6 l6">
-          <p class="margin right-align medium-small"><a href="user-forgot-password.html">Forgot password ?</a></p>
+          <p class="margin right-align medium-small">
+            @if (Route::has('password.request'))
+            <a href="{{ route('password.request') }}">
+                {{ __('Forgot Your Password?') }}
+            </a>
+            @endif
+          </p>
         </div>
       </div>
     </form>
