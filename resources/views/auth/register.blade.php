@@ -86,7 +86,7 @@
     <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google.">
     <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template, eCommerce dashboard, analytic dashboard">
     <meta name="author" content="ThemeSelect">
-    <title>User Register | Dustmo</title>
+    <title>User Register | Materialize - Material Design Admin Template</title>
     <link rel="apple-touch-icon" href="../../../app-assets/images/favicon/apple-touch-icon-152x152.png">
     <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/favicon/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -108,8 +108,7 @@
       <div class="col s12">
         <div class="container"><div id="register-page" class="row">
   <div class="col s12 m6 l4 z-depth-4 card-panel border-radius-6 register-card bg-opacity-8">
-    <form method="POST" action="{{ route('register') }}">
-        @csrf
+    <form class="login-form">
       <div class="row">
         <div class="input-field col s12">
           <h5 class="ml-4">Register</h5>
@@ -119,54 +118,39 @@
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">person_outline</i>
-          <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-
-          @error('name')
-              <span class="invalid-feedback" role="alert">
-                  <strong>{{ $message }}</strong>
-              </span>
-          @enderror
+          <input id="username" type="text">
           <label for="username" class="center-align">Username</label>
         </div>
       </div>
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">mail_outline</i>
-          <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+          <input id="email" type="email">
           <label for="email">Email</label>
         </div>
       </div>
       <div class="row margin">
         <div class="input-field col s12">
-            <i class="material-icons prefix pt-2">lock_outline</i>
-            <input id="password" type="password">
-            <label for="password">Password</label>
+          <i class="material-icons prefix pt-2">lock_outline</i>
+          <input id="password" type="password">
+          <label for="password">Password</label>
         </div>
-    </div>
-    <div class="row margin">
-        <div class="input-field col s12">
-            <i class="material-icons prefix pt-2">lock_outline</i>
-            <input id="password-again" type="password">
-            <label for="password-again">Password again</label>
-        </div>
-    </div>
       </div>
-      <div class="row">
-        <button type="submit" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">
-            {{ __('Register') }}
-        </button>
-
+      <div class="row margin">
+        <div class="input-field col s12">
+          <i class="material-icons prefix pt-2">lock_outline</i>
+          <input id="password-again" type="password">
+          <label for="password-again">Password again</label>
+        </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <p class="margin medium-small">
-              <a href="user-login.html">Already have an account? Login</a></p>
+          <a href="index.html" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">Register</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <p class="margin medium-small"><a href="user-login.html">Already have an account? Login</a></p>
         </div>
       </div>
     </form>
