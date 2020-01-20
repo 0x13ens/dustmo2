@@ -36,7 +36,7 @@
       </div>
       <div class="row margin">
         <div class="input-field col s12">
-          <i class="material-icons prefix pt-2">person_outline</i>
+          <i class="material-icons prefix pt-2">mail_outline</i>
           <input id="email" type="email" @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
             @error('email')
