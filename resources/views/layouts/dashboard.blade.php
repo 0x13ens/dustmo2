@@ -76,10 +76,11 @@
               <li><a class="grey-text text-darken-1" href="page-faq.html"><i class="material-icons">help_outline</i> Help</a></li>
               <li class="divider"></li>
               <li><a class="grey-text text-darken-1" href="user-lock-screen.html"><i class="material-icons">lock_outline</i> Lock</a></li>
+              <li>
               <form method="POST" action="{{ route('logout') }}">
                 @csrf
-                <li><a class="grey-text text-darken-1" type="submit"><i class="material-icons">keyboard_tab</i>Logout</a></li>
-              </form>
+                <a class="grey-text text-darken-1" type="submit"><i class="material-icons">keyboard_tab</i>Logout</a>
+              </li>
             </ul>
           </div>
           <nav class="display-none search-sm">
