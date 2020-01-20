@@ -84,7 +84,7 @@
                         <form class="login-form">
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <h5 class="ml-4">Reset Password</h5>
+                                    <h5 class="ml-4">{{ __('Reset Password') }}</h5>
                                     <p class="ml-4">You can reset your password</p>
                                 </div>
                             </div>
