@@ -41,15 +41,27 @@
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">person_outline</i>
-          <input id="username" type="text">
-          <label for="username" class="center-align">Username</label>
+          <input id="name" type="text" @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+
+            @error('name')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+            @enderror
+            <label for="name">{{ __('Name') }}</label>
         </div>
       </div>
       <div class="row margin">
         <div class="input-field col s12">
           <i class="material-icons prefix pt-2">mail_outline</i>
-          <input id="email" type="email">
-          <label for="email">Email</label>
+          <input id="email" type="email" @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+
+            @error('email')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+            @enderror
+            <label for="email">{{ __('E-Mail Address') }}</label>
         </div>
       </div>
       <div class="row margin">
@@ -61,7 +73,7 @@
                 <strong>{{ $message }}</strong>
             </span>
            @enderror
-          <label for="password">Password</label>
+           <label for="password">{{ __('Password') }}</label>
         </div>
       </div>
       <div class="row margin">
