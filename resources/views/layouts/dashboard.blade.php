@@ -77,6 +77,10 @@
               <li class="divider"></li>
               <li><a class="grey-text text-darken-1" href="user-lock-screen.html"><i class="material-icons">lock_outline</i> Lock</a></li>
               <li><a class="grey-text text-darken-1" href="user-login.html"><i class="material-icons">keyboard_tab</i> Logout</a></li>
+              <li><a href="{{ route('logout') }}" onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();">
+                                                Logout
+            </a></li>
             </ul>
           </div>
           <nav class="display-none search-sm">
