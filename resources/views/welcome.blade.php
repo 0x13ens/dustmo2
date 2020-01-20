@@ -50,6 +50,10 @@
       <div class="menu__item">
         <nav class="menu__right-nav d-l-none">
           <ul>
+            @if(Auth::guest())
+            {
+                <li><a href="sensors" class="site-btn site-btn--accent">Login</a></li>
+            }
             <li><a href="sensors" class="site-btn site-btn--accent">Dashboard</a></li>
             <li>
               <div class="menu__dropdown d-t-none">
