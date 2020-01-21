@@ -14,11 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('sensor','SensorController@createSensor');   //for creating Sensor
-Route::get('sensor/{id}','SensorController@updateSensor'); //for updating Sensor
-Route::post('sensor/{id}','SensorController@deleteSensor');  // for deleting Sensor
-Route::('sensor','SensorController@index'); // for retrieving Sensor
-
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
