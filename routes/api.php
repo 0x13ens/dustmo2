@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +14,10 @@ use Illuminate\Http\Request;
 |
 */
 
-$router->post('sensor','SensorController@createSensor');   //for creating Sensor
-$router->get('sensor/{id}','SensorController@updateSensor'); //for updating Sensor
-$router->post('sensor/{id}','SensorController@deleteSensor');  // for deleting Sensor
-$router->get('sensor','SensorController@index'); // for retrieving Sensor
+Route::post('sensor','SensorController@createSensor');   //for creating Sensor
+Route::get('sensor/{id}','SensorController@updateSensor'); //for updating Sensor
+Route::post('sensor/{id}','SensorController@deleteSensor');  // for deleting Sensor
+Route::('sensor','SensorController@index'); // for retrieving Sensor
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
