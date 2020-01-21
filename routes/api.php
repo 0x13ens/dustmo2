@@ -13,6 +13,11 @@ use Illuminate\Http\Request;
 |
 */
 
+$router->post('sensor','SensorController@createSensor');   //for creating Sensor
+$router->get('sensor/{id}','SensorController@updateSensor'); //for updating Sensor
+$router->post('sensor/{id}','SensorController@deleteSensor');  // for deleting Sensor
+$router->get('sensor','SensorController@index'); // for retrieving Sensor
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });

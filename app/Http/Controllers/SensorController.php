@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use DB;
 use App\sensor;
 use App\room;
 use Illuminate\Http\Request;
@@ -28,6 +29,39 @@ class SensorController extends Controller
     {
         return view('sensors.create');
     }
+
+    public function createSensor(Request $request){
+        $sensor = Sensor::create($request->all());
+        return response()->json($sensor);
+    }
+
+    public function updateProduct(Request $request, $id){
+        $sensor  = DB::table('sensors')->where('pid',$request->input('pid'))->get();
+           $sensor->name = $request->input('name');
+           $sensor->price = $request->input('price');
+           $sensor->description = $request->input('description');
+           $sensor->save();
+           $response["sensors"] = $sensor;
+           $response["success"] = 1;
+        return response()->json($response);
+    }
+
+    public function deleteSensor($id){
+        $product  = DB::table('sensors')->where('pid',$request->input('pid'))->get();
+        $product->delete();
+        return response()->json('Removed successfully.');
+    }
+
+    public function index(){
+        $sensors  = Sensor::all();
+           $response["sensors"] = $sensors;
+           $response["success"] = 1;
+        return response()->json($response);
+    }
+
+
+
+
 
     /**
      * Store a newly created resource in storage.
