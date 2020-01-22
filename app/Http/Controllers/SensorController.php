@@ -15,7 +15,6 @@ class SensorController extends Controller
     public function index()
     {
         $sensors = Sensor::orderBy('id', 'DESC')->paginate(50);
-        $sensorTemp = Project::orderBy('updated_at', 'DESC')->get();
         return view('sensor.index', compact('sensors'));
     }
 
