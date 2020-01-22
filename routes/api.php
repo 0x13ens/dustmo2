@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::post('sensors','SensorController@store');
 Route::get('sensors', 'SensorController@getSensors');
 
-// This post link hits the sensorController Store method and hopefully stores our sensor values in the database
+// This post link hits the sensorController Store method and creates a user in our database
 Route::post('createuser', 'UserController@create');
-Route::post('userlogin', 'UserController@login');
+
+// This post link hits the UserController login method and hopefully logs our user in
+Route::get('userlogin', 'UserController@login');
