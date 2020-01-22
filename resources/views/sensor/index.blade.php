@@ -10,10 +10,10 @@
 <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/eCommerce-products-page.css">
     <!-- END: Page Level CSS-->
 
-            <div class="row">
-              <div class="col s12">
-                <div class="container">
-                  <div class="section">
+<div class="row">
+    <div class="col s12">
+    <div class="container">
+        <div class="section">
         <div class="row" id="ecommerce-products">
           <div class="col s12 m3 l3 pr-0 hide-on-med-and-down animate fadeLeft">
             <div class="card">
@@ -201,7 +201,7 @@
                   <div class="row">
                     <h5 class="col s12 m12 l8 mt-3">$399.00</h5>
                     <a class="col s12 m12 l4 mt-2 waves-effect waves-light gradient-45deg-deep-purple-blue btn modal-trigger"
-                      href="#modal1">View</a>
+                      href="http://dustmo.com/sensors/1">View</a>
                   </div>
                 </div>
               </div>
