@@ -6,6 +6,7 @@ use Illuminate\Hashing\BcryptHasher;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use App\User;
+use App\Auth;
 
 
 class UserController extends Controller
