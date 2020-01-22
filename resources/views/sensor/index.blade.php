@@ -205,6 +205,7 @@
                   </div>
                 </div>
               </div>
+            </div>
       </div><!-- START RIGHT SIDEBAR NAV -->
       <aside id="right-sidebar-nav">
          <div id="slide-out-right" class="slide-out-right-sidenav sidenav rightside-navigation">
