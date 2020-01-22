@@ -199,7 +199,7 @@
                   <span class="card-title text-ellipsis">Bedroom Sensors</span>
                   <img src="/app-assets/images/cards/airmo-nano.png" class="responsive-img" alt="">
                   <div class="row">
-                  <h5 class="col s12 m12 l8 mt-3">{{ $temperature->temperature }}℃</h5>
+                  <h5 class="col s12 m12 l8 mt-3">{{ $temperature->temperature }}<small>℃</small></h5>
                     <a class="col s12 m12 l4 mt-2 waves-effect waves-light gradient-45deg-deep-purple-blue btn modal-trigger"
                       href="http://dustmo.com/sensors/1">View</a>
                   </div>
