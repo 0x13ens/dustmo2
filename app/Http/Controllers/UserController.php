@@ -16,7 +16,7 @@ class UserController extends Controller
     {
         //creating a validator
         $validator = Validator::make($request->all(), [
-            'username' => 'required|unique:users',
+            'name' => 'required|unique:users',
             'password' => 'required',
             'email' => 'required|unique:users'
         ]);
@@ -33,7 +33,7 @@ class UserController extends Controller
         $user = new User();
 
         //adding values to the users
-        $user->username = $request->input('username');
+        $user->name = $request->input('name');
         $user->email = $request->input('email');
         $user->password = (new BcryptHasher)->make($request->input('password'));
 
@@ -51,7 +51,7 @@ class UserController extends Controller
     public function login(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'username' => 'required',
+            'name' => 'required',
             'password' => 'required'
         ]);
 
@@ -62,7 +62,7 @@ class UserController extends Controller
             );
         }
 
-        $user = User::where('username', $request->input('username'))->first();
+        $user = User::where('name', $request->input('name'))->first();
 
         if (count($user)) {
             if (password_verify($request->input('password'), $user->password)) {
