@@ -193,10 +193,10 @@
           <div class="col s12 m12 l9">
             <div class="col s12 m4 l4">
               <div class="card animate fadeLeft">
-                <div class="card-badge"><a class="white-text"> <b>On Offer</b> </a></div>
+                <div class="card-badge"><a class="white-text"> <b>Warning</b> </a></div>
                 <div class="card-content">
-                  <p>Smartwatches</p>
-                  <span class="card-title text-ellipsis">Smartwatch 2.0 LTE Wifi</span>
+                  <p>Airsense</p>
+                  <span class="card-title text-ellipsis">Bedroom Sensors</span>
                   <img src="/app-assets/images/cards/airmo-nano.png" class="responsive-img" alt="">
                   <div class="row">
                     <h5 class="col s12 m12 l8 mt-3">$399.00</h5>
