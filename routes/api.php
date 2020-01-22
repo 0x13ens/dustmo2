@@ -19,4 +19,4 @@ Route::post('sensors','SensorController@store');
 
 // This post link hits the sensorController Store method and hopefully stores our sensor values in the database
 Route::post('createuser', 'UserController@create');
-Route::get('userlogin', 'UserController@login');
+Route::post('userlogin', 'UserController@login');
