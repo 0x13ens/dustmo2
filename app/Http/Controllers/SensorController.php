@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\sensor;
-use App\room;
 use Illuminate\Http\Request;
 
 class SensorController extends Controller
@@ -98,5 +97,10 @@ class SensorController extends Controller
     public function destroy(sensor $sensor)
     {
         //
+    }
+
+    public function getSensors(){
+        $sensors = Sensor::get()->toJson(JSON_PRETTY_PRINT);
+        return response($sensors, 200);
     }
 }

@@ -48,7 +48,7 @@ class UserController extends Controller
     }
 
     //function for user login
-    public function loginWoop(Request $request)
+    public function login(Request $request)
     {
         $validator = Validator::make($request->all(), [
             'name' => 'required',

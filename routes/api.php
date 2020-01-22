@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 // This post link hits the sensorController Store method and hopefully stores our sensor values in the database
 Route::post('sensors','SensorController@store');
+Route::get('sensors', 'SensorController@getSensors');
 
 // This post link hits the sensorController Store method and hopefully stores our sensor values in the database
 Route::post('createuser', 'UserController@create');
-Route::post('userlogin', 'UserController@loginWoop');
+Route::post('userlogin', 'UserController@login');
