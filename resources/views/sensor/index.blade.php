@@ -205,33 +205,6 @@
                   </div>
                 </div>
               </div>
-            <!-- Pagination -->
-            <div class="col s12 center">
-              <ul class="pagination">
-                <li class="disabled">
-                  <a href="#!">
-                    <i class="material-icons">chevron_left</i>
-                  </a>
-                </li>
-                <li class="active"><a href="#!">1</a>
-                </li>
-                <li class="waves-effect"><a href="#!">2</a>
-                </li>
-                <li class="waves-effect"><a href="#!">3</a>
-                </li>
-                <li class="waves-effect"><a href="#!">4</a>
-                </li>
-                <li class="waves-effect"><a href="#!">5</a>
-                </li>
-                <li class="waves-effect">
-                  <a href="#!">
-                    <i class="material-icons">chevron_right</i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div><!-- START RIGHT SIDEBAR NAV -->
       <aside id="right-sidebar-nav">
          <div id="slide-out-right" class="slide-out-right-sidenav sidenav rightside-navigation">
