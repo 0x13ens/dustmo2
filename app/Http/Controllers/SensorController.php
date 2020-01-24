@@ -100,7 +100,7 @@ class SensorController extends Controller
     }
 
     public function getSensors(){
-        $sensors = Sensor::get()->toJson(JSON_PRETTY_PRINT);
+        $sensors = Sensor::get()->toJson;
         return response($sensors, 200);
     }
 }

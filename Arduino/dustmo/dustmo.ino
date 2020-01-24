@@ -1,10 +1,10 @@
 // This is the users wifi creds 
-// const char* ssid     = "Lots of Security";
-// const char* password = "Mercedes19";
+const char* ssid     = "Lots of Security";
+const char* password = "Mercedes19";
 
 // This is the colleges wifi network
-const char* ssid     = "student_wifi";
-const char* password = "studentnet";
+// const char* ssid     = "student_wifi";
+// const char* password = "studentnet";
 
 
 //const char* ssid     = "iPhone";
