@@ -19,6 +19,7 @@ Route::post('sensors','SensorController@store');
 Route::get('sensors', 'SensorController@getSensors');
 
 // This post link hits the sensorController Store method and creates a user in our database
+Route::post('login', 'API\RegisterController@login');
 Route::post('createuser', 'UserController@create');
 
 // This post link hits the UserController login method and hopefully logs our user in
