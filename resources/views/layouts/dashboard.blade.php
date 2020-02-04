@@ -8,6 +8,22 @@
     <link rel="apple-touch-icon" href="../../../app-assets/images/favicon/apple-touch-icon-152x152.png">
     <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/favicon/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
     <!-- BEGIN: VENDOR CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/vendors.min.css">
     <!-- END: VENDOR CSS-->
@@ -22,8 +38,7 @@
   </head>
   <!-- END: Head-->
   <body class="vertical-layout page-header-light vertical-menu-collapsible vertical-gradient-menu 2-columns  " data-open="click" data-menu="vertical-gradient-menu" data-col="2-columns">
-
-    <!-- BEGIN: Header-->
+    <div id="app">
     <header class="page-topbar" id="header">
       <div class="navbar navbar-fixed">
         <nav class="navbar-main navbar-color nav-collapsible sideNav-lock navbar-light">
@@ -167,6 +182,7 @@
     </footer>
 
     <!-- END: Footer-->
+    <script src="/js/app.js"></script>
     <!-- BEGIN VENDOR JS-->
     <script src="../../../app-assets/js/vendors.min.js" type="text/javascript"></script>
     <!-- BEGIN VENDOR JS-->
@@ -180,5 +196,6 @@
     <!-- BEGIN PAGE LEVEL JS-->
     <script src="../../../app-assets/js/scripts/dashboard-ecommerce.js" type="text/javascript"></script>
     <!-- END PAGE LEVEL JS-->
+</div>
   </body>
 </html>

@@ -57,6 +57,7 @@ class SensorController extends Controller
      */
     public function show($id)
     {
+
         $sensors = Sensor::orderBy('id', 'DESC')->paginate(50);
         $temperature = Sensor::orderby('id', 'desc')->first();
         $pressure = Sensor::orderby('id', 'desc')->first();
@@ -100,7 +101,7 @@ class SensorController extends Controller
     }
 
     public function getSensors(){
-        $sensors = Sensor::all();
+        $sensors = Sensor::all()->toJson();
         return $sensors;
 
         //$sensors = Sensor::get()->toJson();
