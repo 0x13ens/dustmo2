@@ -101,8 +101,19 @@ class SensorController extends Controller
     }
 
     public function getSensors(){
-        $sensors = Sensor::all()->toJson();
-        return $sensors;
+        $result = [];
+        foreach (Sensor::all() as $sensor)
+        {
+            $result[] = [
+                'id' => $sensor->id,
+                'user_id' => $sensor->user_id,
+                'temperature' => $sensor->temperature,
+                'pressure' => $sensor->pressure,
+                'altitude' => $sensor->altitude,
+                'humidity' => $sensor->humidity
+            ];
+        }
+        return $result;
 
         //$sensors = Sensor::get()->toJson();
         //return response($sensors, 200);
